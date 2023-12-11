@@ -8,169 +8,213 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Pavol Mulinka
+    tagline: Data Scientist / Engineer / Machine learning Enthusiast
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: mulinka.pavol@gmail.com
+    phone: +34661816178
+    timezone: CET (UTC+1)
+    citizenship: slovak
+    google_scholar: zsJ4nfoAAAAJ
+    orcid: 0000-0002-9394-8794
+    scopus: 53980138500
+    web_of_science: ABG-8213-2020
+    linkedin: mulinka
+    github: 5uperpalo
+    driving_license: A+B
+    diving_certification: OWD(Open Water Diver)
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Slovak
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
         - idiom: Spanish
+          level: Intermediate
+  
+        - idiom: Czech
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Climbing/Bouldering
           link:
 
-        - item: Snowboarding
+        - item: Motorcycles
+          link:
+        
+        - item: Ceramics/Pottery
           link:
 
-        - item: Cooking
+        - item: Nature(Hiking/Trail running)
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a machine learning enthusiast, data scientist, Python programmer, and former network engineer. I focus on applied science, sustainability and open source solutions. I enjoy riding motorcycles, rock climbing, hiking, ceramics, trail running, and ocassionally yoga.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD
+        university: Telecommunications, FEE, CTU, Prague, Czech rep.
+        time: 2013 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Hierarchical density-based clustering and interpretation for network measurements.
+          The aim was to detect and interpret unknown patterns in passive/active network/Cloud measurements by hierarchical density-based unsupervised machine learning techniques.
+      - degree: Bc/Ing (Masters)
+        university:  Telecommunications, FEE, STU, Bratislava, Slovakia
+        time: 2004 - 2009
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+           - Bc.: Measurement of glottal period of human voice
+           - Ing.(Masters): Classificators for identification of the speaker
+
+oss:
+    title: Open Source contributions
+    info:
+      - role: collaborator
+        time: 01/07/2021 - now
+        company: pytorch-widedeep
+        details: |
+          Collaboration on open source deep learning library pytorch-widedeep:
+          - [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77) 
+          - [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62)
+          - [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
+
+      - role: external collaborator/Volunteer
+        time: 01/04/2020 - 01/03/2021
+        company: Wikimedia Scoring platform team
+        details: |
+          Collaboration on Data Science related tasks under the username [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/), please see the Phabricator tickets and related git merges:
+          - [Compress Gensim models](https://phabricator.wikimedia.org/T111179)
+          - [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8)
+          - [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697)
+          - [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall)
+          - [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
+          - [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
 
 experiences:
-    title: Experiences
+    title: Experience - work
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data scientist
+        time: 23/11/2020 - now
+        company: CTTC, Barcelona/Castelldefels, Spain
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Design and analysis of machine learning approaches to detect patterns, anomalous and rare events in synthetic and real-world datasets 
+          as a part of research team working on projects:
+          - [Framework for the Identification of Rare Events via MAchine learning and IoT Networks(FIREMAN)](https://fireman-project.eu/)
+          - [SUCCESS-6G](https://success-6g-project.cttc.es/)
+
+      - role: Data scientist/Python programmer (freelancer consultant)
+        time: 01/03/2021 - 26/01/2023
+        company: Assetario, Bratislava, Slovakia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Design, analysis and implementation of machine learning approaches for:
+          - prediction of customer lifetime value(LTV/PLTV) in mobile applications
+          - in-app purchase recommendation system
+      
+      - role: Python specialist (freelance consultant)
+        time: 01/06/2020 - 01/10/2020
+        company: SEAS, Bratislava, Slovakia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI. Docker containerized solution utilizing Redis for in-memory database, Flask as web framework and Celery for multi-processing. Design of code unit testing. Transformation of procedural code to object oriented. Code refactorization.
+      
+      - role: F5 loadbalancer specialist(freelance consultant)
+        time: 01/06/2020 - 01/10/2020
+        company: X, Prague, Czech rep.
+        details: |
+          dsdsf
+
+      - role: Previous positions
+        time: 01/08/2007 - 20/11/2018
+        company: in descending order
+        details: |
+          - Network Engineer (VSHosting, Prague, CZ)
+          - Network Consulting Engineer (Verizon, Prague, CZ)
+          - Senior System Engineer (AT&T, Bratislava, SK)
+          - HP Radia Specialist (Soitron, Bratislava, SK)
+          - HP Monitoring Support Specialist (Soitron, Bratislava, SK)
+          - IT VoIP support specialist (Soitron, Bratislava, SK)  
 
 certifications:
-      title: Certifications
+      title: Certifications (expired)
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: Cisco
+          start: 
+          end: 
+          organization: Cisco
+          credentialid:
+          credentialurl:
+          credentialname:
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+            - Cisco Certified Network Associate (CCNA, 640-802) 
+              - (640-553) Implementing Cisco IOS Network Security
+              - (640-460) Implementing Cisco IOS Unified Communications
+              - (640-721) Implementing Cisco Unified Wireless Net. Essentials
+            - CCDA
+              - (640-863) Designing for Cisco Internetwork Solutions
+            - CCNP
+              - (642-901) Building Scalable Cisco Internetworks
+              - (642-812) Building Cisco Multilayer Switched Networks
+              - (642-825) Implementing Secure Converged Wide Area Networks
+              - (642-845) Optimizing Converged Cisco Networks
+            - CCIP
+              - (642-642) Quality of Service
+              - (642-611) Multiprotocol Label Switching
+              - (642-661) Border Gateway Protocol
+            - CCDP
+              - (300-320) Designing Cisco Network Service
+              - (642-873) Designing Cisco Network Service Architectures
+            - CUWSS
+              - (642-731) Conducting Cisco Unified Wireless Site Survey
+            - SENSS
+              - (300-206) Implementing Cisco Edge Network Security Solutions 
+        - name: F5
+          start: 
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: F5
+          credentialid:
+          credentialurl:
+          credentialname:
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - F5-PCL
+              - (F50-531) F5 Certified Product Consultant for LTM
+            - F5 certified administrator
 
+        - name: Juniper
+          start: 
+          end:
+          organization: Juniper
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+            - JNCIA-EX
+              - (JN0-400) Juniper Networks Certified Internet Associate EX
+              
+
+        - name: Other
+          start: 
+          end:
+          organization:
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+            - ITILv3
+              - (Foundation) Information Technology Infrastructure Library Foundation in IT Service Management
+            - TOGAF 9
+            - ArchiMate 3
+  
 projects:
     title: Projects
     intro: >
@@ -181,41 +225,6 @@ projects:
       - title: Velocity
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
@@ -243,23 +252,8 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

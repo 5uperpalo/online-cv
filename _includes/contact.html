@@ -19,9 +19,48 @@
     </li>
     {% endif %}
 
+    {% if sidebar.driving_license %}
+    <li class="phone"><i class="fas fa-passport"></i>
+      <a href="">{{ sidebar.driving_license }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.diving_certification %}
+    <li class="phone"><i class="fas fa-passport"></i>
+      <a href="">{{ sidebar.diving_certification }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
       <a href="">{{ sidebar.timezone }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.google_scholar %}
+    <li class="google_scholar"><i class="fas fa-globe-americas"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.google_scholar }}" target="_blank">{{
+        sidebar.google_scholar }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.orcid %}
+    <li class="orcid"><i class="fas fa-globe-americas"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">{{ sidebar.orcid }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.scopus %}
+    <li class="scopus"><i class="fas fa-globe-americas"></i>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId={{ sidebar.scopus }}" target="_blank">{{ sidebar.scopus
+        }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.web_of_science %}
+    <li class="web_of_science"><i class="fas fa-globe-americas"></i>
+      <a href="https://www.webofscience.com/wos/author/rid/{{ sidebar.web_of_science }}" target="_blank">{{
+        sidebar.web_of_science }}</a>
     </li>
     {% endif %}
 
@@ -75,13 +114,15 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow
+        }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.codewars %}
     <li class="codewars"><i class="fas fa-code"></i>
-      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{
+        sidebar.codewars }}</a>
     </li>
     {% endif %}
 
