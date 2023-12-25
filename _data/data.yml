@@ -43,20 +43,20 @@ sidebar:
         - idiom: Czech
           level: Fluent
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing/Bouldering
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing/Bouldering
+    #       link:
 
-        - item: Motorcycles
-          link:
+    #     - item: Motorcycles
+    #       link:
         
-        - item: Ceramics/Pottery
-          link:
+    #     - item: Ceramics/Pottery
+    #       link:
 
-        - item: Nature (Hiking/Trail running)
-          link:
+    #     - item: Nature (Hiking/Trail running)
+    #       link:
 
 career-profile:
     title: Profile
@@ -113,16 +113,15 @@ experiences_recent:
         company: CTTC, Barcelona/Castelldefels, Spain
         details: |
           Design and analysis of machine learning approaches to detect patterns, anomalous and rare events in synthetic and real-world datasets 
-          as a part of research team working on projects:
-          - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
-          - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
+          as a part of a research team. 
+# For related projects see Projects sec.
 
-      - role: Data scientist/Python programmer (freelancer)
+      - role: Python programmer (freelancer)
         time: 01/03/2021 - 26/01/2023
         company: Assetario, Bratislava, Slovakia
         details: |
-          Design, analysis and implementation of machine learning approaches for:
-          - prediction of customer lifetime value(LTV/PLTV) in mobile applications
+          Design, analysis and impl. of machine learning approaches for:
+          - prediction of customer lifetime value in mobile apps
           - in-app purchase recommendation system
 
 # experiences:
@@ -338,24 +337,24 @@ experiences_recent:
 #         authors: Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol
 #         conference: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 75%
+#     toolset:
+#       - name: Python
+#         level: 75%
 
-      - name: Kubernetes/Helm/Docker
-        level: 65%
+#       - name: Kubernetes/Helm/Docker
+#         level: 65%
 
-      - name: Machine learning
-        level: 80%
+#       - name: Machine learning
+#         level: 80%
 
-      - name: Linux/Unix
-        level: 60%
+#       - name: Linux/Unix
+#         level: 60%
 
-      - name: Networking
-        level: 50%
+#       - name: Networking
+#         level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
