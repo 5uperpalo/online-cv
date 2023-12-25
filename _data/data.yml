@@ -119,9 +119,7 @@ experiences_recent:
         time: 01/03/2021 - 26/01/2023
         company: Assetario, Bratislava, Slovakia
         details: |
-          Design, analysis and impl. of machine learning approaches for:
-          - prediction of customer lifetime value in mobile apps
-          - in-app purchase recommendation system
+          Design, analysis and impl. of machine learning approaches for (i) prediction of customer lifetime value in mobile apps and (ii) in-app purchase recommendation system.
 
 # experiences:
 #     title: Experience - work
