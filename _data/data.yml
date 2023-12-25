@@ -108,12 +108,11 @@ education:
 experiences_recent:
     title: Recent Experience - work
     info:
-      - role: Data scientist
+      - role: Data scientist (Researcher)
         time: 23/11/2020 - now
         company: CTTC, Barcelona/Castelldefels, Spain
         details: |
-          Design and analysis of machine learning approaches to detect patterns, anomalous and rare events in synthetic and real-world datasets 
-          as a part of a research team. 
+          Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data.
 # For related projects see Projects sec.
 
       - role: Python programmer (freelancer)
