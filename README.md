@@ -28,7 +28,7 @@ I have made this into a Jekyll Theme. Checkout the live demo [here](https://onli
 * [Fork](https://github.com/sharu725/online-cv/fork) the repository;
 * Go to settings and set master branch as Github Pages source;
 * Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
+* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://www.sejda.com/html-to-pdf , etc.
 
 Change all the details from one place: `_data/data.yml`.
 
@@ -68,12 +68,12 @@ bundle exec jekyll serve
 
 There are 6 color schemes available:
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
+| Blue                                                                          | Turquoise                                                                          | Green                                                                          |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
+| Berry                                                                          | Orange                                                                          | Ceramic                                                                          |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
 
 ## Credits

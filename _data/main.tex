@@ -1,0 +1,580 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% XeLaTeX Template
+%
+% This template has been downloaded and adjusted from:
+%
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to 
+\usepackage{fontawesome}
+\usepackage{fontspec}
+\usepackage{tikz}
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+	anchorcolor=cyan,
+}
+
+\addbibresource{bibliography.bib}
+\begin{document}
+
+\header{Pavol}{ Mulinka}{Data Scientist / Engineer / Machine learning Enthusiast}{\faEnvelopeO(work)$\;$\href{mailto:pmulinka@cttc.es}      {pmulinka@cttc.es}\faEnvelopeO(personal)$\;$\href{mailto:mulinka.pavol@gmail.com}{mulinka.pavol@gmail.com}  }{  \faLinkedinSquare$\;$\href{http://www.linkedin.com/in/mulinka}{http://www.linkedin.com/in/mulinka}}
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+Carrer del Torrent 
+de l'Olla 194, 5-3
+08012 Barcelona
+Spain
++421904196989 \faMobilePhone
+\section{citizenship}
+Slovak
+\section{gender}
+male
+\section{languages}
+slovak mother tongue
+english fluently
+spanish basic
+\section{IT skills}
+{\color{red} \faHeart}Python\{Pytorch, SciPy, Numpy, Pandas/GeoPandas, Flask, Celery, ...\}, SQL
+Docker,
+Apache\{Spark, Kafka
+Hive, Pig\}, 
+Git,Hadoop, Linux, 
+GIS, ELKI, MOA
+Bash, Networking
+\section{Reseacher IDs}
+\href{https://scholar.google.com/citations?user=zsJ4nfoAAAAJ&amp;hl=en}{Google Scholar}
+\href{https://orcid.org/0000-0002-9394-8794}{ORCID}
+Scopus \href{https://orcid.org/0000-0002-9394-8794}{53980138500}
+WoS \href{https://publons.com/researcher/4094849/pavol-mulinka/}{ABG-8213-2020}
+\section{Driving License}
+A+B
+\section{Diving Cert}
+OWD(Open Water Diver)
+\end{aside}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{education}
+\begin{entrylist}
+
+\entry
+{2013--2021}
+{PhD, field of study - Telecommunications}
+{FEE, CTU, Prague}
+{\emph{Hierarchical density-based clustering and interpretation for network measurements}~\cite{nof}, \cite{wtmc}\\
+The aim is to detect and interpret unknown patterns in passive/active network/Cloud measurements by hierarchical density-based unsupervised machine learning techniques.}
+
+%define desired and undesired behavior of Cloud services/ and analyze the causes of disruptions in the operation of Cloud networks by the use of automatic discovery process, eg. machine learning.}
+
+%------------------------------------------------
+
+\entry
+{2004--2009}
+{Bc/Ing (Masters), field of study - Telecommunications}
+{FEE, STU, Bratislava}
+{Bc. - \emph{Measurement of glottal period of human voice}\\Ing. - \emph{Classificators for identification of the speaker}~\cite{kacur2011speaker}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-1em}
+
+\section{experience-OpenSource}
+
+\begin{entrylist}
+
+\entry
+{01/07/2021--\\now}
+{pytorch-widedeep}
+{}
+{\emph{Collaborator}\\
+Collaboration on open source deep learning library pytorch-widedeep:
+\begin{itemize}
+	\item \href{https://github.com/jrzaurin/pytorch-widedeep/pull/77}{Deep Imbalanced Regression}
+	\item \href{https://github.com/jrzaurin/pytorch-widedeep/pull/62}{New loss functions}
+	\item \href{https://github.com/jrzaurin/pytorch-widedeep/pull/42}{Custom Imbalanced DataLoader}
+\end{itemize}
+}
+
+\entry
+{01/04/2020--\\01/03/2021}
+{Wikimedia Scoring platform team}
+{}
+{\emph{External collaborator/Volunteer}\\
+Collaboration on Data Science related tasks under the username \href{https://phabricator.wikimedia.org/p/Pavol86/}{Pavol86}, please see the Phabricator tickets and related git merges:
+\begin{itemize}
+	\item \href{https://phabricator.wikimedia.org/T111179}{Compress Gensim models}
+	\begin{itemize}
+		\item \href{https://github.com/mediawiki-utilities/python-mwtext/pull/8}{python-mwtext}
+	\end{itemize}
+	\item \href{https://phabricator.wikimedia.org/T247523\#6200697}{Tokenization of ”word” things for CJK}
+	\begin{itemize}
+		\item \href{https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall}{deltas}, \href{https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+}{revscoring}, \href{https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+}{editquality}
+	\end{itemize}
+\end{itemize}
+For reference please contact \faEnvelopeO \href{mailto:aaron.halfaker@gmail.com}{Aaron Halfaker}, username \href{https://phabricator.wikimedia.org/p/Halfak/}{Halfak}, a former Scoring platform team member.
+}
+
+\end{entrylist}
+
+\section{experience-work}
+
+\begin{entrylist}
+
+\entry
+{01/03/2021--\\now}
+{Assetario}
+{Bratislava, Slovakia}
+{\emph{Data Scientist}\\
+Design and analysis of machine learning approaches for prediction of customer lifetime value in mobile applications.
+}
+
+\end{entrylist}
+
+\begin{entrylist}
+
+\entry
+{23/11/2020--\\now}
+{CTTC}
+{Barcelona, Spain}
+{\emph{Data Scientist}\\
+Design and analysis of machine learning approaches to detect patterns, anomalous and rare events in synthetic and real-world datasets as a part of research team working on project \href{https://fireman-project.eu/}{FIREMAN} (Framework for the Identification of Rare Events via MAchine learning and IoT Networks.
+Related git repos:
+\begin{itemize}
+	\item \href{https://github.com/5uperpalo/FIREMAN-project/}{main repository}
+	\item \href{https://github.com/5uperpalo/FIREMAN-project_imputation/}{data imputation using deep learning in PyTorch}
+\end{itemize}
+}
+
+\entry
+{01/06/2020--\\01/10/2020}
+{SEAS}
+{Bratislava, Slovakia}
+{\emph{Python specialist (freelance consultant)}\\
+Design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI. Docker containerized solution utilizing Redis for in-memory database, Flask as web framework and Celery for multi-processing. Design of code unit testing. Transformation of procedural code to object oriented. Code refactorization.
+}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+{08/03/2019--\\03/09/2019}
+{NII Tokyo}
+{Tokyo, Japan}
+{\emph{Data Scientist (fixed-term 6 months)}\\
+Application of the unsupervised machine learning (ML) approaches to network (NW) 
+traces (MAWI, Darknet). Generalization and improvement of the hierarchical density-based clustering approach to NW measurements interpretation proposed during AIT Vienna internship. Improvement of PySpark ML scripts running in distributed UX server environment. Results were summarized in conference papers~\cite{nof}, \cite{wtmc}.
+}
+
+\iffalse
+\entry
+{21/11/2018--\\20/02/2019}
+{O2 Telefonica}
+{Barcelona, Spain}
+{\emph{Data Scientist (fixed-term 3 months)}\\
+Analysis of the relations between socioeconomic status of customers and network performance, and investigation of potential discrimination in network deployment and management. Correlating LSOA database (Lower-layer Super Output Areas) and operator measurements by Geographic Information System (QGIS, ArcGIS, GeoPandas) in distributed computing env. (PySpark).
+}
+\fi
+
+\iffalse
+\entry
+{01/03/2018--\\31/08/2018}
+{AIT Vienna}
+{Vienna, Austria}
+{\emph{Data Scientist (fixed-term 6 months)}\\
+Cybersecurity and network performance analysis, anomaly detection and diagnosis. Application of supervised, unsupervised, batch and stream-based machine learning techniques on big network measurement datasets (MAWI and Cloud latency). Integration of machine learning approaches into big data analytics platforms - in particular, working on a distributed computing environment within the BIG-DAMA project (https://bigdama.ait.ac.at/). Utilization of distributed computing tools and platforms such as Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch etc.. Running and configuration of machine learning bash script on linux server. Results were summarized in conference papers~\cite{mtd2019,cnsm2019,cloudnet2019,nips2018,cloudnet2018,mulinka2018speaker,mulinka2018poster}}
+
+\entry
+{01/01/2014--\\01/01/2015}
+{Cisco Systems, Inc.}
+{Prague, Czech republic}
+{\emph{Principal investigator}\\
+Research project
+\emph{Metrics for Automated Detection of Cloud Anomalous Behavior} focused on automated detection and interpretation of suspicious events in active Cloud latency measurements. Results were summarized in conference paper~\cite{mulinka2015learning}.
+}
+\fi
+
+\entry
+{01/11/2013--\\now}
+{Czech Technical University}
+{Prague, Czech republic}
+{\emph{Principal/Co-investigator}\\
+Application of ML methods for pattern recognition in diverse datasets, e.g. (i) active Cloud latency measurements, (ii) NW traces, (iii) IoT logs. 
+
+List of projects :
+\begin{itemize}
+	\item \emph{Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools}
+	\item \emph{Privacy Protection and Machine Learning Utilization of IoT Data in Cloud}
+	\item \emph{Cloud Performance Analysis and Improvement}~\cite{tomanek2016multidimensional}
+	\item \emph{Smart-home IoT and Cloud Telemetry Datamining}
+	\item \emph{Methods Enhancing Work with Cloud Data}~\cite{mulinka2015learning}
+\end{itemize}
+}
+
+%\end{entrylist}
+%\vspace{-5em}
+%\pagebreak
+%\begin{entrylist}
+\entry
+{01/08/2007--\\20/11/2018}
+{Previous positions}
+{in descending order}
+{(i) Data Scientist (O2 Telefonica - Barcelona, ES); (ii) Data Scientist (AIT - Vienna, AU); (iii) Network Engineer (VSHosting - Prague, CZ); (iv) Network Consulting Engineer (Verizon - Prague, CZ); (v) Senior System Engineer (AT\&T - Bratislava, SK); (vi) HP Radia Specialist / (vii) HP Monitoring Support Specialist / (viii) IT VoIP support specialist (Soitron - Bratislava, SK)}
+
+\iffalse
+\entry
+{18/07/2016--\\31/01/2018}
+{VSHosting}
+{Prague, Czech republic}
+{\emph{Network Engineer}\\
+Router/switch installation, routing strategy provisioning, documentation maintaining. Implementation of physical/logical changes to local data center
+}
+%\iffalse
+%\entry
+%{18/07/2016--\\31/01/2018}
+%{VSHosting}
+%{Prague, Czech republic}
+%{\emph{Network Engineer}\\
+%Investigation, design, planning, and implementation of physical and %logical communications networks (WAN, LAN, data center, IPT, etc.). %Provisioning of fourth level of operational support for customer %networks. Router/ switch installation/ removal, IP routing strategy %provisioning, documentation maintaining.}
+
+
+%\pagebreak
+
+\entry
+{08/07/2013--\\30/04/2016}
+{Verizon}
+{Prague, Czech republic}
+{\emph{Network Consulting Engineer}\\
+Investigation, design, planning, and implementation of physical and logical communications networks (WAN, LAN, data center, IPT, etc.). Provisioning of fourth level of operational support for customer networks. Router/ switch installation/ removal, IP routing strategy provisioning, documentation maintaining.
+}
+
+%\end{entrylist}
+
+%------------------------------------------------
+
+%\begin{entrylist}
+
+\entry
+{01/09/2009--\\28/02/2013}
+{AT\&T}
+{Bratislava, Slovakia}
+{\emph{Senior System Engineer}\\
+Investigation, design, planning, and implementation of physical and logical communications networks (WAN, LAN, data center, IPT, etc.). Provisioning of fourth level of operational support for customer networks. Router/ switch installation/ removal, IP routing strategy provisioning, documentation maintaining.
+}
+
+
+%------------------------------------------------
+
+\entry
+{01/11/2008--\\30/06/2009}
+{Soitron}
+{Bratislava, Slovakia}
+{\emph{HP Radia Specialist}\\
+Advanced L2 support for the HP implementation of the OpenView Configuration Manager (formerly Radia) - server automation, inventory management, software distribution and patch management.
+}
+
+%------------------------------------------------
+
+\entry
+{01/11/2007--\\31/10/2008}
+{Soitron}
+{Bratislava, Slovakia}
+{\emph{HP Monitoring Support Specialist}\\
+Support of HP network monitoring solution. Implementation of monitoring changes on MPLS lines. Availability, utilization and congestion reporting of internal networks. Handover of monitoring support from teams in EMEA region to AMS.
+}
+
+%------------------------------------------------
+
+\entry
+{01/08/2007--\\31/10/2007}
+{Soitron}
+{Bratislava, Slovakia}
+{\emph{IT support specialist (VoIP)}\\
+On site support for VoIP call center. Implementation of changes in ACM (Avaya Call Manager), minor changes to network, operator reports provisioning, call recording solution support.
+}
+\fi
+
+\end{entrylist}
+
+
+
+%\pagebreak
+%----------------------------------------------------------------------------------------
+%	RESEARCH PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+%\vspace{-1mm}
+
+\iffalse
+\section{past research activities/list of projects}
+\vspace{-0.5em}
+\begin{entrylist}
+
+\entry
+{I)}{J.~Klemsa, L.~Vojtech, P.~Mulinka, J.~Riha, P.~Hnyk, I.~Trumova, "Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools", SGS19/109/OHK3/2T/13, Co-Investigator role, 1/2019 - now, Czech Technical University in Prague}
+{}
+{}
+
+\entry
+{II)}{P.~Mulinka, J.~Klemsa, O.~Tomanek and L.~Kencl, "Privacy {P}rotection and {M}achine {L}earning {U}tilization of {IoT} {D}ata in {C}loud", SGS18/077/OHK3/1T/13, Principal investigator role, 1/2018 - 1/2019, Czech Technical University in Prague}
+{}
+{}
+
+\entry
+{III)}{P.~Mulinka, O.~Tomanek, J.~Klemsa and L.~Kencl, "Smart-home {IoT} and {C}loud {T}elemetry {D}atamining", SGS17/091/OHK3/1T/13, Principal investigator role, 1/2017 - 1/2018, Czech Technical University in Prague}
+{}
+{}
+
+\entry
+{IV)}{O.~Tomanek, P.~Mulinka, Z.~Kouba, V.~Uhlir, E.~Marku and L.~Kencl, "Cloud {P}erformance {A}nalysis and {I}mprovement", SGS15/153/OHK3/2T/13, Co-Investigator role, 1/2015 - 1/2017, Czech Technical University in Prague}
+{}
+{}
+
+\entry
+{V)}{P.~Mulinka and L.~Kencl, "{M}etrics for {A}utomated {D}etection of {C}loud {A}nomalous {B}ehavior", Cisco Systems, Inc., Collaborative Research Program, Principal Investigator role, 1/2013 - 1/2014, Czech Technical University in Prague}
+{}
+{}
+
+\entry
+{VI)}{O.~Tomanek, J.~Stanek, P.~Mulinka and L.~Kencl, "Methods {E}nhancing {W}ork with {C}loud {D}ata", SGS13/139/OHK3/2T/13, Co-investigator role, 1/2013 - 1/2015, Czech Technical University in Prague}
+{}
+{}
+
+\end{entrylist}
+
+\fi
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{certifications}
+\begin{entrylist}
+\entry
+{}
+{Networking \& IT}
+{}
+{(i) CCNA, (ii) CCDA, (iii) CCNP, (iv) CCIP, (v) CCDP, (vi) CUWSS, (vii) SENSS, (viii) JNCIA-EX, (ix) F5-PCL, (x) ITILv3, (xi) TOGAF 9, (xii) ArchiMate 3, (xiii) F5 certified administrator}
+
+\end{entrylist}
+
+\section{interests and accomplishments}
+
+\begin{entrylist}
+
+\entry
+{accomp-\\lishments}
+{ACM SIGCOMM'18 poster "Adaptive Network Security through Stream Machine Learning" selected into Student Research Competition\\ 
+ACM SIGCOMM'18 Big-DAMA workshop paper selected into final round of Best Paper Competition}
+{}
+{}
+
+%------------------------------------------------
+
+\entry
+{research\\interests}
+{data analysis, machine/deep learning, distributed/cloud computing, networking, suspicious and anomalous event detection}
+{}
+{}
+
+%------------------------------------------------
+
+\entry
+{personal\\interests}
+{climbing, bouldering, yoga, motorcycles, documentaries, psychology, sociology, underground culture}
+{}
+{}
+
+\end{entrylist}
+
+
+\iffalse
+%----------------------------------------------------------------------------------------
+%	Pedagogical merits
+%----------------------------------------------------------------------------------------
+\section{experience pedagogical}
+
+\begin{entrylist}
+
+\entry
+{2019}
+{NII Tokyo}
+{Tokyo, Japan}
+{\emph{Mentor - Sakura Science Plan}\\
+Mentoring, academical support and provisioning of computing environment for under-grad intern visiting NII Tokyo for three weeks supported by Sakura Science Plan internship.
+}
+
+\entry
+{2015, 2016\\
+winter sem.}
+{Czech Technical University, FEE}
+{Prague, Czech republic}
+{\emph{Teaching assistant - Network Operating Systems}\\
+Network operating systems, Linux, Unix. Administration and network tools, managing and administration of documentation. Basic concepts, configuration and procedures in operating systems administration (UNIX). \\
+\href{https://www.fel.cvut.cz/en/education/bk_peo/predmety/12/57/p12573204.html}{\addfontfeature{Color=cyan}{Network Operating Systems Website}}}
+
+\entry
+{2014\\
+winter sem.}
+{Czech Technical University, FEE}
+{Prague, Czech republic}
+{\emph{Teaching assistant - Digital Engineering}\\
+Basic principles of both classical and programmable logic devices and their practical use in the design of digital systems. Design and implementation of digital circuits VHDL language. Implementation of logic gates, measurement of their static and dynamic properties. Verification of digital circuits in the simulator.\\
+\href{https://www.fel.cvut.cz/en/education/bk/predmety/13/53/p1353506.html}{\addfontfeature{Color=cyan}{Digital Engineering Website}}}
+
+\entry
+{2014, 2015\\
+summer sem.}
+{Czech Technical University, FEE}
+{Prague, Czech republic}
+{\emph{Teaching assistant - Communication Processes Control}\\
+Review of switching systems solution principles, i.e. (i) switching fields, (ii) control systems and (iii) signalization for switching control (in central office as well in networks). Focus on digital switching systems with circuit commutation as well as transport of IP packets. Basic review and consideration about convergence of voice and data services and networks including functional principles of new generation networks with respect to philosophy and services of intelligent network. \\
+\href{https://www.fel.cvut.cz/en/education/bk_peo/predmety/12/57/p12573204.html}{\addfontfeature{Color=cyan}{Communication Processes Control Website}}}
+
+\end{entrylist}
+\fi
+
+
+
+
+\iffalse
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{entrylist}
+
+\entry
+{Deep\\ Learning}
+{Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization\\
+Neural Networks and Deep Learning\\
+Structuring Machine Learning Projects\\
+Convolutional Neural Networks\\
+Sequence Models}
+{Coursera}
+{}
+
+\entry
+{CCNA}
+{(640-802) – Cisco Certified Network Associate\\
+(640-553) - Implementing Cisco IOS Network Security\\
+(640-460) - Implementing Cisco IOS Unified Communications\\
+(640-721) – Implementing Cisco Unified Wireless Net. Essentials}
+{Cisco}
+{}
+
+\entry
+{CCDA}
+{(640-863) - Designing for Cisco Internetwork Solutions}
+{Cisco}
+{}
+
+\entry
+{CCNP}
+{(642-901) - Building Scalable Cisco Internetworks\\
+(642-812) - Building Cisco Multilayer Switched Networks\\
+(642-825) - Implementing Secure Converged Wide Area Networks\\
+(642-845) - Optimizing Converged Cisco Networks}
+{Cisco}
+{}
+
+\entry
+{CCIP}
+{(642-642) – Quality of Service\\
+(642-611) – Multiprotocol Label Switching\\
+(642-661) – Border Gateway Protocol}
+{Cisco}
+{}
+
+\entry
+{CCDP}
+{(300-320) - Designing Cisco Network Service\\
+(642-873) – Designing Cisco Network Service Architectures}
+{Cisco}
+{}
+
+\entry
+{CUWSS}
+{(642-731) – Conducting Cisco Unified Wireless Site Survey}
+{Cisco}
+{}
+
+\entry
+{SENSS}
+{(300-206) – Implementing Cisco Edge Network Security Solutions}
+{Cisco}
+{}
+
+\entry
+{JNCIA-EX}
+{(JN0-400) – Juniper Networks Certified Internet Associate – EX}
+{Juniper}
+{}
+
+\entry
+{F5-PCL}
+{(F50-531) – F5 Certified Product Consultant for LTM}
+{F5}
+{}
+
+\entry
+{ITILv3}
+{(Foundation) – Information Technology Infrastructure Library Foundation in IT Service Management}
+{AXELOS Ltd}
+{}
+
+\end{entrylist}
+\fi
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+\section{publications}
+
+%\begin{refsection}% This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+
+\nocite{*}
+\printbibliography[heading=none,sorting=chronological]
+%\printbibliography[sorting=chronological, type=article, title={international peer-reviewed conferences/proceedings}, heading=none]
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, heading=none]
+
+%\end{refsection}
+\pagebreak
+
+\section{personal statement}
+\subsection{description of the research subject}
+I am a research collaborator in FIREMAN project, open source code collaborator on pytorch-widedeep library and former network engineer. My research is focused on applied data science for detection, classification and interpretation of faults, issues and attacks in the context of Network Measurements and sensoric data in the Industrial IoT environment. Both fields share the same type of data and problem, ie. realtime detection and interpretation of events from tabular data.
+
+\subsection{importance of PhD school attendance}
+As a junior researcher and open source coder I want to highlight issues that I believe are important to solve in the applied data science community. Attendance of the TMA PhD would give me a unique opportunity to discuss collaborations with young/junior researchers, share my experience and knowledge and broaden my research focus. I believe in usage and popularization of open source code in research community and I believe the TMA school event would be a great place to find like-minded people.
+
+\subsection{estimated expenses}
+
+Estimated expenses to attend TMA PhD school:
+\begin{itemize}
+	\item plane tickets from Barcelona to Dortmund and back: 200 EUR
+	\item bus tickets from Dortmund to Enschede and back: 100 EUR
+	\item accomodation for 5 days: 5 x 60 EUR
+	\item together: \bf{600 EUR}
+\end{itemize}
+\end{document}

@@ -15,51 +15,52 @@
 
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+      <a class="nounderline">{{ sidebar.citizenship }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.driving_license %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.driving_license }}</a>
+    <li class="phone"><i class="fa fa-id-card"></i>
+      <a class="nounderline">driving lic. {{ sidebar.driving_license }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.diving_certification %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.diving_certification }}</a>
+    <li><i class="fa fa-id-card"></i>
+      <a class="nounderline">diving lic. {{ sidebar.diving_certification }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <a class="nounderline">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.google_scholar %}
-    <li class="google_scholar"><i class="fas fa-globe-americas"></i>
-      <a href="https://scholar.google.com/citations?user={{ sidebar.google_scholar }}" target="_blank">{{
+    <li class="google_scholar"><i class="ai ai-google-scholar"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.google_scholar }}" target="_blank">Google scholar {{
         sidebar.google_scholar }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.orcid %}
-    <li class="orcid"><i class="fas fa-globe-americas"></i>
-      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">{{ sidebar.orcid }}</a>
+    <li class="orcid"><i class="ai ai-orcid"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">Orcid {{ sidebar.orcid }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.scopus %}
-    <li class="scopus"><i class="fas fa-globe-americas"></i>
-      <a href="https://www.scopus.com/authid/detail.uri?authorId={{ sidebar.scopus }}" target="_blank">{{ sidebar.scopus
+    <li class="scopus"><i class="ai ai-scopus"></i>
+      <a href="https://www.scopus.com/authid/detail.uri?authorId={{ sidebar.scopus }}" target="_blank">Scopus {{
+        sidebar.scopus
         }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.web_of_science %}
-    <li class="web_of_science"><i class="fas fa-globe-americas"></i>
-      <a href="https://www.webofscience.com/wos/author/rid/{{ sidebar.web_of_science }}" target="_blank">{{
+    <li class="web_of_science"><i class="ai ai-clarivate"></i>
+      <a href="https://www.webofscience.com/wos/author/rid/{{ sidebar.web_of_science }}" target="_blank">WoS {{
         sidebar.web_of_science }}</a>
     </li>
     {% endif %}
@@ -132,9 +133,21 @@
     </li>
     {% endif %}
 
-    {% if sidebar.pdf %}
-    <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+    {% if sidebar.print %}
+    <li class="print"><i class="fas fa-print"></i>
+      <a href="{{ sidebar.print }}" target="_blank">CV - print ver.</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.pdf_short %}
+    <li class="pdf_short"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdf_short }}" target="_blank">CV - short</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.pdf_full %}
+    <li class="pdf_full"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdf_full }}" target="_blank">CV - full</a>
     </li>
     {% endif %}
 

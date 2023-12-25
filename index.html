@@ -6,10 +6,18 @@ layout: default
 {% include career-profile.html %}
 
 {% unless site.data.data.sidebar.education %}
-  {% include education.html %}
+{% include education.html %}
 {% endunless %}
 
+{% include experiences_oss.html %}
+
+{% include experiences_recent.html %}
+
 {% include experiences.html %}
+
+{% include experiences_internships.html %}
+
+{% include experiences_pedagogical.html %}
 
 {% include certifications.html %}
 
@@ -20,4 +28,3 @@ layout: default
 {% include publications.html %}
 
 {% include skills.html %}
-
