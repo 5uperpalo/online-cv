@@ -60,7 +60,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      I am a machine learning enthusiast, data scientist, Python programmer, and former network engineer. I focus on applied science, sustainability and open source solutions. I enjoy riding motorcycles, rock climbing, hiking, ceramics, trail running, and ocassionally yoga.
+      I am a machine learning enthusiast, Data Scientist, Python programmer, and former network engineer. I focus on applied science, sustainability and open source solutions.
 
 education:
     title: Education
@@ -80,29 +80,29 @@ education:
           - Ing.(Masters): Classificators for identification of the speaker
             - Building on top of the Bc. results by identification of speakers by glottal period and other aux. features
 
-experiences_oss:
-    title: Open Source contributions
-    info:
-      - role: Collaborator
-        time: 01/07/2021 - now
-        company: pytorch-widedeep
-        details: |
-          Collaboration on open source deep learning library pytorch-widedeep:
-          - [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77) 
-          - [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62)
-          - [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
+# experiences_oss:
+#     title: Open Source contributions
+#     info:
+#       - role: Collaborator
+#         time: 01/07/2021 - now
+#         company: pytorch-widedeep
+#         details: |
+#           Collaboration on open source deep learning library pytorch-widedeep:
+#           - [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77) 
+#           - [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62)
+#           - [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
 
-      - role: External collaborator/Volunteer
-        time: 01/04/2020 - 01/03/2021
-        company: Wikimedia Scoring platform team
-        details: |
-          Collaboration on Data Science related tasks under the username [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/), please see the Phabricator tickets and related git merges:
-          - [Compress Gensim models](https://phabricator.wikimedia.org/T111179)
-          - [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8)
-          - [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697)
-          - [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall)
-          - [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
-          - [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
+#       - role: External collaborator/Volunteer
+#         time: 01/04/2020 - 01/03/2021
+#         company: Wikimedia Scoring platform team
+#         details: |
+#           Collaboration on Data Science related tasks under the username [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/), please see the Phabricator tickets and related git merges:
+#           - [Compress Gensim models](https://phabricator.wikimedia.org/T111179)
+#           - [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8)
+#           - [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697)
+#           - [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall)
+#           - [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
+#           - [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
 
 experiences_recent:
     title: Recent Experience - work
@@ -111,7 +111,8 @@ experiences_recent:
         time: 23/11/2020 - now
         company: CTTC, Barcelona/Castelldefels, Spain
         details: |
-          Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data. For related projects see Projects sec.
+          Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data.
+# For related projects see Projects sec.
 
       - role: Python programmer (freelancer)
         time: 01/03/2021 - 26/01/2023
@@ -119,237 +120,237 @@ experiences_recent:
         details: |
           Design, analysis and impl. of machine learning approaches for (i) prediction of customer lifetime value in mobile apps and (ii) in-app purchase recommendation system.
 
-experiences:
-    title: Experience - work
-    info:
-      - role: Python specialist (freelancer)
-        time: 01/06/2020 - 01/10/2020
-        company: SEAS, Bratislava, Slovakia
-        details: |
-          Design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI. Docker containerized solution utilizing Redis for in-memory database, Flask as web framework and Celery for multi-processing. Design of code unit testing. Transformation of procedural code to object oriented. Code refactorization.
+# experiences:
+#     title: Experience - work
+#     info:
+#       - role: Python specialist (freelancer)
+#         time: 01/06/2020 - 01/10/2020
+#         company: SEAS, Bratislava, Slovakia
+#         details: |
+#           Design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI. Docker containerized solution utilizing Redis for in-memory database, Flask as web framework and Celery for multi-processing. Design of code unit testing. Transformation of procedural code to object oriented. Code refactorization.
       
-      - role: F5 loadbalancer specialist (freelancer)
-        time: 01/06/2020 - 01/10/2020
-        company: Oksystems, Prague, Czech rep.
-        details: |
-          Migration of existing Apache XML firewall/loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project
+#       - role: F5 loadbalancer specialist (freelancer)
+#         time: 01/06/2020 - 01/10/2020
+#         company: Oksystems, Prague, Czech rep.
+#         details: |
+#           Migration of existing Apache XML firewall/loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project
 
-      - role: Previous positions
-        time: 01/08/2007 - 20/11/2018
-        company: in descending order
-        details: |
-          - Network Engineer (VSHosting, Prague, CZ)
-          - Network Consulting Engineer (Verizon, Prague, CZ)
-          - Senior System Engineer (AT&ampT, Bratislava, SK)
-          - HP Radia Specialist (Soitron, Bratislava, SK)
-          - HP Monitoring Support Specialist (Soitron, Bratislava, SK)
-          - IT VoIP support specialist (Soitron, Bratislava, SK)
+#       - role: Previous positions
+#         time: 01/08/2007 - 20/11/2018
+#         company: in descending order
+#         details: |
+#           - Network Engineer (VSHosting, Prague, CZ)
+#           - Network Consulting Engineer (Verizon, Prague, CZ)
+#           - Senior System Engineer (AT&ampT, Bratislava, SK)
+#           - HP Radia Specialist (Soitron, Bratislava, SK)
+#           - HP Monitoring Support Specialist (Soitron, Bratislava, SK)
+#           - IT VoIP support specialist (Soitron, Bratislava, SK)
 
-experiences_internships:
-    title: Experience - internships
-    info:
-      - role: Data scientist
-        time: 08/03/2019 - 03/09/2019
-        company: NII, Tokyo, Japan
-        details: |
-          Application of the unsupervised machine learning (ML) approaches to network (NW) traces (MAWI, Darknet). Generalization and improvement of the hierarchical density-based clustering approach to NW measurements interpretation proposed during AIT Vienna internship. Improvement of PySpark ML scripts running in distributed UX server environment. Results were summarized in conference papers.
+# experiences_internships:
+#     title: Experience - internships
+#     info:
+#       - role: Data scientist
+#         time: 08/03/2019 - 03/09/2019
+#         company: NII, Tokyo, Japan
+#         details: |
+#           Application of the unsupervised machine learning (ML) approaches to network (NW) traces (MAWI, Darknet). Generalization and improvement of the hierarchical density-based clustering approach to NW measurements interpretation proposed during AIT Vienna internship. Improvement of PySpark ML scripts running in distributed UX server environment. Results were summarized in conference papers.
 
-      - role: Data scientist
-        time: 21/11/2018 - 20/02/2019
-        company: O2 Telefonica, Barcelona, Spain
-        details: |
-          Analysis of the relations between socioeconomic status of customers and network performance, and investigation of potential discrimination in network deployment and management. Correlating LSOA database (Lower-layer Super Output Areas) and operator measurements by Geographic Information System (QGIS, ArcGIS, GeoPandas) in distributed computing env. (PySpark).
+#       - role: Data scientist
+#         time: 21/11/2018 - 20/02/2019
+#         company: O2 Telefonica, Barcelona, Spain
+#         details: |
+#           Analysis of the relations between socioeconomic status of customers and network performance, and investigation of potential discrimination in network deployment and management. Correlating LSOA database (Lower-layer Super Output Areas) and operator measurements by Geographic Information System (QGIS, ArcGIS, GeoPandas) in distributed computing env. (PySpark).
 
-      - role: Data scientist
-        time: 01/03/2018 - 31/08/2018
-        company: AIT, Vienna, Austria
-        details: |
-          Cybersecurity and network performance analysis, anomaly detection and diagnosis. Application of supervised, unsupervised, batch and stream-based machine learning techniques on big network measurement datasets (MAWI and Cloud latency). Integration of machine learning approaches into big data analytics platforms - in particular, working on a distributed computing environment within the [BIG-DAMA project](https://bigdama.ait.ac.at/). Utilization of distributed computing tools and platforms such as Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch etc.. Running and configuration of machine learning bash script on linux server. Results were summarized in conference papers.
+#       - role: Data scientist
+#         time: 01/03/2018 - 31/08/2018
+#         company: AIT, Vienna, Austria
+#         details: |
+#           Cybersecurity and network performance analysis, anomaly detection and diagnosis. Application of supervised, unsupervised, batch and stream-based machine learning techniques on big network measurement datasets (MAWI and Cloud latency). Integration of machine learning approaches into big data analytics platforms - in particular, working on a distributed computing environment within the [BIG-DAMA project](https://bigdama.ait.ac.at/). Utilization of distributed computing tools and platforms such as Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch etc.. Running and configuration of machine learning bash script on linux server. Results were summarized in conference papers.
 
 
-experiences_pedagogical:
-    title: Experience - pedagogical
-    info:
-      - role: Mentor<br>(Sakura Science Plan)
-        time: 2019
-        company: NII, Tokyo, Japan
-        details: |
-          Mentoring, academical support and provisioning of computing environment for under-grad intern visiting NII Tokyo for three weeks supported by Sakura Science Plan internship.
+# experiences_pedagogical:
+#     title: Experience - pedagogical
+#     info:
+#       - role: Mentor<br>(Sakura Science Plan)
+#         time: 2019
+#         company: NII, Tokyo, Japan
+#         details: |
+#           Mentoring, academical support and provisioning of computing environment for under-grad intern visiting NII Tokyo for three weeks supported by Sakura Science Plan internship.
 
-      - role: Teaching assistant<br>(Network Operating Systems)
-        time: 2015, 2016 winter sem.
-        company: Czech Technical University, FEE, Prague, Czech republic
-        details: |
-          Network operating systems, Linux, Unix. Administration and network tools, managing and administration of documentation. Basic concepts, configuration and procedures in operating systems administration (UNIX).
+#       - role: Teaching assistant<br>(Network Operating Systems)
+#         time: 2015, 2016 winter sem.
+#         company: Czech Technical University, FEE, Prague, Czech republic
+#         details: |
+#           Network operating systems, Linux, Unix. Administration and network tools, managing and administration of documentation. Basic concepts, configuration and procedures in operating systems administration (UNIX).
 
-      - role: Teaching assistant<br>(Digital Engineering)
-        time: 2014 winter sem.
-        company: Czech Technical University, FEE, Prague, Czech republic
-        details: |
-          Basic principles of both classical and programmable logic devices and their practical use in the design of digital systems. Design and implementation of digital circuits VHDL language. Implementation of logic gates, measurement of their static and dynamic properties. Verification of digital circuits in the simulator.
+#       - role: Teaching assistant<br>(Digital Engineering)
+#         time: 2014 winter sem.
+#         company: Czech Technical University, FEE, Prague, Czech republic
+#         details: |
+#           Basic principles of both classical and programmable logic devices and their practical use in the design of digital systems. Design and implementation of digital circuits VHDL language. Implementation of logic gates, measurement of their static and dynamic properties. Verification of digital circuits in the simulator.
 
-      - role: Teaching assistant<br>(Communication Processes Control)
-        time: 2014, 2015 summer sem.
-        company: Czech Technical University, FEE, Prague, Czech republic
-        details: |
-          Review of switching systems solution principles, i.e. (i) switching fields, (ii) control systems and (iii) signalization for switching control (in central office as well in networks). Focus on digital switching systems with circuit commutation as well as transport of IP packets. Basic review and consideration about convergence of voice and data services and networks including functional principles of new generation networks with respect to philosophy and services of intelligent network.
+#       - role: Teaching assistant<br>(Communication Processes Control)
+#         time: 2014, 2015 summer sem.
+#         company: Czech Technical University, FEE, Prague, Czech republic
+#         details: |
+#           Review of switching systems solution principles, i.e. (i) switching fields, (ii) control systems and (iii) signalization for switching control (in central office as well in networks). Focus on digital switching systems with circuit commutation as well as transport of IP packets. Basic review and consideration about convergence of voice and data services and networks including functional principles of new generation networks with respect to philosophy and services of intelligent network.
       
-certifications:
-      title: Certifications (expired)
-      list:
-        - name: Cisco
-          details: |
-            - Cisco Certified Network Associate (CCNA, 640-802) 
-              - (640-553) Implementing Cisco IOS Network Security
-              - (640-460) Implementing Cisco IOS Unified Communications
-              - (640-721) Implementing Cisco Unified Wireless Net. Essentials
-            - Cisco Certified Design Associate (CCDA)
-              - (640-863) Designing for Cisco Internetwork Solutions
-            - Cisco Certified Network Professional (CCNP)
-              - (642-901) Building Scalable Cisco Internetworks
-              - (642-812) Building Cisco Multilayer Switched Networks
-              - (642-825) Implementing Secure Converged Wide Area Networks
-              - (642-845) Optimizing Converged Cisco Networks
-            - Cisco Certified Internetwork Professional (CCIP)
-              - (642-642) Quality of Service
-              - (642-611) Multiprotocol Label Switching
-              - (642-661) Border Gateway Protocol
-            - Cisco Certified Design Professional (CCDP)
-              - (300-320) Designing Cisco Network Service
-              - (642-873) Designing Cisco Network Service Architectures
-            - Conducting Cisco Unified Wireless Site Survey (CUWSS, 642-731) 
-            - Implementing Cisco Edge Network Security Solutions (SENSS, 300-206)
-        - name: F5
-          details: |
-            - F5 Certified Product Consultant for LTM (F5-PCL, F50-531)
-            - F5 Certified Administrator
-              - (101) Application Delivery Fundamentals
-              - (201) TMOS Administration
+# certifications:
+#       title: Certifications (expired)
+#       list:
+#         - name: Cisco
+#           details: |
+#             - Cisco Certified Network Associate (CCNA, 640-802) 
+#               - (640-553) Implementing Cisco IOS Network Security
+#               - (640-460) Implementing Cisco IOS Unified Communications
+#               - (640-721) Implementing Cisco Unified Wireless Net. Essentials
+#             - Cisco Certified Design Associate (CCDA)
+#               - (640-863) Designing for Cisco Internetwork Solutions
+#             - Cisco Certified Network Professional (CCNP)
+#               - (642-901) Building Scalable Cisco Internetworks
+#               - (642-812) Building Cisco Multilayer Switched Networks
+#               - (642-825) Implementing Secure Converged Wide Area Networks
+#               - (642-845) Optimizing Converged Cisco Networks
+#             - Cisco Certified Internetwork Professional (CCIP)
+#               - (642-642) Quality of Service
+#               - (642-611) Multiprotocol Label Switching
+#               - (642-661) Border Gateway Protocol
+#             - Cisco Certified Design Professional (CCDP)
+#               - (300-320) Designing Cisco Network Service
+#               - (642-873) Designing Cisco Network Service Architectures
+#             - Conducting Cisco Unified Wireless Site Survey (CUWSS, 642-731) 
+#             - Implementing Cisco Edge Network Security Solutions (SENSS, 300-206)
+#         - name: F5
+#           details: |
+#             - F5 Certified Product Consultant for LTM (F5-PCL, F50-531)
+#             - F5 Certified Administrator
+#               - (101) Application Delivery Fundamentals
+#               - (201) TMOS Administration
 
-        - name: Juniper
-          details: |
-            - Juniper Networks Certified Internet Associate EX (JNCIA-EX, JN0-400) 
+#         - name: Juniper
+#           details: |
+#             - Juniper Networks Certified Internet Associate EX (JNCIA-EX, JN0-400) 
               
-        - name: Other
-          details: |
-            - Information Technology Infrastructure Library Foundation in IT Service Management (ITILv3, Foundation) 
-            - The Open Group Architecture Framework (TOGAF 9)
-            - ArchiMate 3
+#         - name: Other
+#           details: |
+#             - Information Technology Infrastructure Library Foundation in IT Service Management (ITILv3, Foundation) 
+#             - The Open Group Architecture Framework (TOGAF 9)
+#             - ArchiMate 3
   
-projects:
-    title: Projects
-    assignments:
-      - title: PhD
-        tagline: |
-          - Metrics for Automated Detection of Cloud Anomalous Behavior} focused on automated detection and interpretation of suspicious events in active Cloud latency measurements
-          - Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools
-          - Privacy Protection and Machine Learning Utilization of IoT Data in Cloud
-          - Cloud Performance Analysis and Improvement
-          - Smart-home IoT and Cloud Telemetry Datamining
-          - Methods Enhancing Work with Cloud Data
+# projects:
+#     title: Projects
+#     assignments:
+#       - title: PhD
+#         tagline: |
+#           - Metrics for Automated Detection of Cloud Anomalous Behavior} focused on automated detection and interpretation of suspicious events in active Cloud latency measurements
+#           - Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools
+#           - Privacy Protection and Machine Learning Utilization of IoT Data in Cloud
+#           - Cloud Performance Analysis and Improvement
+#           - Smart-home IoT and Cloud Telemetry Datamining
+#           - Methods Enhancing Work with Cloud Data
 
-      - title: Research (CTTC)
-        tagline: |
-          - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
-          - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
+#       - title: Research (CTTC)
+#         tagline: |
+#           - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
+#           - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
 
-publications:
-    title: Publications
-    papers:
-      - title: pytorch-widedeep A flexible package for multimodal deep learning
-        authors: Zaurin, Javier Rodriguez and Mulinka, Pavol
-        conference: Journal of Open Source Software, 2023
+# publications:
+#     title: Publications
+#     papers:
+#       - title: pytorch-widedeep A flexible package for multimodal deep learning
+#         authors: Zaurin, Javier Rodriguez and Mulinka, Pavol
+#         conference: Journal of Open Source Software, 2023
 
-      - title: A Robust and Explainable Data-Driven Anomaly Detection Approach For Power Electronics 
-        authors: Beattie, Alexander and Mulink, Pavol and Sahoo, Subham and Christou, Ioannis T. and Kalalas, Charalampos and Gutierrez-Rojas, Daniel and Nardelli, Pedro H. J.
-        conference: 2022 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)
+#       - title: A Robust and Explainable Data-Driven Anomaly Detection Approach For Power Electronics 
+#         authors: Beattie, Alexander and Mulink, Pavol and Sahoo, Subham and Christou, Ioannis T. and Kalalas, Charalampos and Gutierrez-Rojas, Daniel and Nardelli, Pedro H. J.
+#         conference: 2022 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)
 
-      - title: Optimizing a Digital Twin for Fault Diagnosis in Grid Connected Inverters - A Bayesian Approach
-        authors: Mulinka, Pavol and Sahoo, Subham and Kalalas, Charalampos and Nardelli, Pedro H. J.
-        conference: 2022 IEEE Energy Conversion Congress and Exposition (ECCE)
+#       - title: Optimizing a Digital Twin for Fault Diagnosis in Grid Connected Inverters - A Bayesian Approach
+#         authors: Mulinka, Pavol and Sahoo, Subham and Kalalas, Charalampos and Nardelli, Pedro H. J.
+#         conference: 2022 IEEE Energy Conversion Congress and Exposition (ECCE)
 
-      - title: A Large-Scale Examination of ”Socioeconomic” Fairness in Mobile Networks
-        authors: Park, Souneil and Mulinka, Pavol and Perino, Diego
-        conference: Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies
+#       - title: A Large-Scale Examination of ”Socioeconomic” Fairness in Mobile Networks
+#         authors: Park, Souneil and Mulinka, Pavol and Perino, Diego
+#         conference: Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies
 
-      - title: Information processing and data visualization in networked industrial systems
-        authors: Mulinka, Pavol and Kalalas, Charalampos and Dzaferagic, Merim and Macaluso, Irene and Rojas, Daniel Gutierrez and Nardelli, Pedro Juliano and Marchetti, Nicola
-        conference: 2021 IEEE 32nd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC) 
+#       - title: Information processing and data visualization in networked industrial systems
+#         authors: Mulinka, Pavol and Kalalas, Charalampos and Dzaferagic, Merim and Macaluso, Irene and Rojas, Daniel Gutierrez and Nardelli, Pedro Juliano and Marchetti, Nicola
+#         conference: 2021 IEEE 32nd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC) 
 
-      - title: NetSEC at High-Speed Distributed Stream Learning for Security in Big Networking Data
-        authors: Casas, Pedro and Mulinka, Pavol and Vanerio, Juan
-        conference: Data Science-Analytics and Applications, 2021, Springer
+#       - title: NetSEC at High-Speed Distributed Stream Learning for Security in Big Networking Data
+#         authors: Casas, Pedro and Mulinka, Pavol and Vanerio, Juan
+#         conference: Data Science-Analytics and Applications, 2021, Springer
 
-      - title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
-        authors: Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro
-        conference: 2020 IEEE Transactions on Network and Service Management
+#       - title: Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis
+#         authors: Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro
+#         conference: 2020 IEEE Transactions on Network and Service Management
 
-      - title: HUMAN - Hierarchical Clustering for Unsupervised Anomaly Detection $\&$ Interpretation
-        authors: Mulinka, Pavol and Casas, Pedro and Fukuda, Kensuke and Kencl, Lukas
-        conference: 11th international Conferece on Network of the Future IEEE 2020
+#       - title: HUMAN - Hierarchical Clustering for Unsupervised Anomaly Detection $\&$ Interpretation
+#         authors: Mulinka, Pavol and Casas, Pedro and Fukuda, Kensuke and Kencl, Lukas
+#         conference: 11th international Conferece on Network of the Future IEEE 2020
 
-      - title: WhatsThat? On the Usage of Hierarchical Clustering for Unsupervised Detection & Interpretation of Network Attacks
-        authors: Mulinka, Pavol and Fukuda, Kensuke and Casas, Pedro and Kencl, Lukas
-        conference: The 5th International Workshop on Traffic Measurements for Cybersecurity 2020 IEEE
+#       - title: WhatsThat? On the Usage of Hierarchical Clustering for Unsupervised Detection & Interpretation of Network Attacks
+#         authors: Mulinka, Pavol and Fukuda, Kensuke and Casas, Pedro and Kencl, Lukas
+#         conference: The 5th International Workshop on Traffic Measurements for Cybersecurity 2020 IEEE
 
-      - title: Should I (re)Learn or Should I Go(on)? Stream Machine Learning for Adaptive Defense against Network Attacks 
-        authors: Casas, Pedro and Mulinka, Pavol and Vanerio, Juan
-        conference: The 6th ACM Workshop on Moving Target Defense (MTD 2019) 
+#       - title: Should I (re)Learn or Should I Go(on)? Stream Machine Learning for Adaptive Defense against Network Attacks 
+#         authors: Casas, Pedro and Mulinka, Pavol and Vanerio, Juan
+#         conference: The 6th ACM Workshop on Moving Target Defense (MTD 2019) 
 
-      - title: Continuous and Adaptive Learning over Big Streaming Data for Network Security
-        authors: Mulinka, Pavol and Casas, Pedro and Vanerio, Juan
-        conference: IEEE International Conference on Cloud Networking CLOUDNET, 2019 International Conference on
+#       - title: Continuous and Adaptive Learning over Big Streaming Data for Network Security
+#         authors: Mulinka, Pavol and Casas, Pedro and Vanerio, Juan
+#         conference: IEEE International Conference on Cloud Networking CLOUDNET, 2019 International Conference on
 
-      - title: ADAM & RAL Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring
-        authors: Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro
-        conference: 15th International Conference on Network and Service Management 2019 IEEE
+#       - title: ADAM & RAL Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring
+#         authors: Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro
+#         conference: 15th International Conference on Network and Service Management 2019 IEEE
 
-      - title: Remember the Good, Forget the Bad, do it Fast Continuous Learning over Streaming Data
-        authors: Mulinka, Pavol and Wassermann, Sarah and Marín, Gonzalo and Casas, Pedro
-        conference: NeurIPS 2018 Workshops, Workshop on Continual Learning
+#       - title: Remember the Good, Forget the Bad, do it Fast Continuous Learning over Streaming Data
+#         authors: Mulinka, Pavol and Wassermann, Sarah and Marín, Gonzalo and Casas, Pedro
+#         conference: NeurIPS 2018 Workshops, Workshop on Continual Learning
 
-      - title: Hi-Clust Unsupervised Analysis of Cloud Latency Measurements through Hierarchical Clustering
-        authors: Mulinka, Pavol and Casas, Pedro and Kencl, Lukas
-        conference: IEEE International Conference on Cloud Networking CLOUDNET, 2018 International Conference on
+#       - title: Hi-Clust Unsupervised Analysis of Cloud Latency Measurements through Hierarchical Clustering
+#         authors: Mulinka, Pavol and Casas, Pedro and Kencl, Lukas
+#         conference: IEEE International Conference on Cloud Networking CLOUDNET, 2018 International Conference on
 
-      - title: Stream-based Machine Learning for Network Security and Anomaly Detection
-        authors: Mulinka, Pavol and Casas, Pedro
-        conference: Proc. of the Workshop on Big Data Analytics and ML for Data Comm. Net., Big-DAMA@SIGCOMM
+#       - title: Stream-based Machine Learning for Network Security and Anomaly Detection
+#         authors: Mulinka, Pavol and Casas, Pedro
+#         conference: Proc. of the Workshop on Big Data Analytics and ML for Data Comm. Net., Big-DAMA@SIGCOMM
 
-      - title: Adaptive Network Security through Stream Machine Learning
-        authors: Mulinka, Pavol and Casas, Pedro
-        conference: Proceedings of the ACM SIGCOMM '18 Posters and Demos
+#       - title: Adaptive Network Security through Stream Machine Learning
+#         authors: Mulinka, Pavol and Casas, Pedro
+#         conference: Proceedings of the ACM SIGCOMM '18 Posters and Demos
 
-      - title: Multidimensional cloud latency monitoring and evaluation
-        authors: Tomanek, Ondrej and Mulinka, Pavol and Kencl, Lukas
-        conference: Computer Networks, Elsevier
+#       - title: Multidimensional cloud latency monitoring and evaluation
+#         authors: Tomanek, Ondrej and Mulinka, Pavol and Kencl, Lukas
+#         conference: Computer Networks, Elsevier
 
-      - title: Learning from Cloud latency measurements
-        authors: Mulinka, Pavol and Kencl, Lukas
-        conference: Communication Workshop (ICCW), 2015 IEEE International Conference on
+#       - title: Learning from Cloud latency measurements
+#         authors: Mulinka, Pavol and Kencl, Lukas
+#         conference: Communication Workshop (ICCW), 2015 IEEE International Conference on
 
-      - title: Speaker identification by K-Nearest Neighbors Application of PCA and LDA prior to KNN
-        authors: Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol
-        conference: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on
+#       - title: Speaker identification by K-Nearest Neighbors Application of PCA and LDA prior to KNN
+#         authors: Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol
+#         conference: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on
 
-skills:
-    title: Skills &amp; Proficiency
+# skills:
+#     title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python
-        level: 75%
+#     toolset:
+#       - name: Python
+#         level: 75%
 
-      - name: Kubernetes/Helm/Docker
-        level: 65%
+#       - name: Kubernetes/Helm/Docker
+#         level: 65%
 
-      - name: Machine learning
-        level: 80%
+#       - name: Machine learning
+#         level: 80%
 
-      - name: Linux/Unix
-        level: 60%
+#       - name: Linux/Unix
+#         level: 60%
 
-      - name: Networking
-        level: 50%
+#       - name: Networking
+#         level: 50%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
