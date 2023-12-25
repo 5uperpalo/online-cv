@@ -79,7 +79,7 @@ education:
           - Bc.: Measurement of glottal period of human voice
             - Measurement, automatic marking and analysis of glottal period of human voice
           - Ing.(Masters): Classificators for identification of the speaker
-            - Building on top of the Bc. results by identification of speakers based on glottal period and other auxiliary features
+            - Building on top of the Bc. results by identification of speakers by glottal period and other aux. features
 
 # experiences_oss:
 #     title: Open Source contributions
