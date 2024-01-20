@@ -129,7 +129,7 @@ experiences:
           Design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI. Docker containerized solution utilizing Redis for in-memory database, Flask as web framework and Celery for multi-processing. Design of code unit testing. Transformation of procedural code to object oriented. Code refactorization.
       
       - role: F5 loadbalancer specialist (freelancer)
-        time: 01/06/2020 - 01/10/2020
+        time: 01/12/2021 - 01/10/2022
         company: Oksystems, Prague, Czech rep.
         details: |
           Migration of existing Apache XML firewall/loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project
