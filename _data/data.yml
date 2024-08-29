@@ -116,11 +116,11 @@ experiences_recent:
           Related projects:
           - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
             - git repo - [https://5uperpalo.github.io/success6g-edge/](https://5uperpalo.github.io/success6g-edge/)
-            - description - data analysis and implementation of the solution for classification of rare events in IIoT
+            - description - data analysis, design, and implementation of the solution for AIoT in V2X
             - used technologies - Python(numpy, pandas, matplotlib, etc.), MySQL, MLflow, Kubeflow, Kubernetes(Minio, Prometheus, Zero-to-Jupyterhub, Flower, Kserve, Knative, Istio, Kepler, Grafana, InfluxDB), streamlit, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep)
           - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
             - git repo - [https://github.com/5uperpalo/FIREMAN-project](https://github.com/5uperpalo/FIREMAN-project)
-            - description - data analysis, design, and implementation of the solution for AIoT in V2X
+            - description - data analysis and implementation of the solution for classification of rare events in IIoT
             - used technologies - Python(numpy, pandas, matplotlib, etc.), models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, HDBSCAN, OPTICS, DBSCAN, GANs, GAIN, scikit-multiflow/river, deep-river), MOA, Kafka, Airflow, MLflow, KSQL, Faust, InfluxDB, Flask
 
 
