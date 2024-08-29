@@ -136,7 +136,7 @@ experiences_recent:
             - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn), Weights&Biases
           <a name="assetario-projects-pltv-anchor"></a>
           - [PLTV (Predicted LifeTime Value)](#assetario-projects-pltv-anchor)
-            - description - data analysis, design and implementation of solution to predict life time value of customers from aggregated data from their earlier in-app behavior and additional auxiliary data
+            - description - data analysis, design and implementation of solution to predict life time value of customers from aggregated data from their early in-app behavior, and additional auxiliary data
             - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, H20, DBSCAN, OPTICS), Weights&Biases, 
 
 experiences:
