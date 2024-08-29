@@ -108,17 +108,34 @@ experiences_oss:
 experiences_recent:
     title: Recent Experience - work
     info:
-      - role: Data scientist (Researcher)
+      - role: Data scientist (Researcher) - onsite
         time: 23/11/2020 - now
         company: CTTC, Barcelona/Castelldefels, Spain
         details: |
           Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data. For related projects see the *Projects* section.
+          Related projects:
+          - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
+            - git repo - https://5uperpalo.github.io/success6g-edge/ 
+            - description - data analysis and implementation of the solution for classification of rare events in IIoT
+            - used technologies - Python(numpy, pandas, matplotlib, etc.), MySQL, MLflow, Kubeflow, Kubernetes(Minio, Prometheus, Zero-to-Jupyterhub, Flower, Kserve, Knative, Istio, Kepler, Grafana, InfluxDB), streamlit, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep)
+          - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
+            - git repo - https://github.com/5uperpalo/FIREMAN-project 
+            - description - data analysis, design, and implementation of the solution for AIoT in V2X
+            - used technologies - Python(numpy, pandas, matplotlib, etc.), models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, HDBSCAN, OPTICS, DBSCAN, GANs, GAIN, scikit-multiflow/river, deep-river), MOA, Kafka, Airflow, MLflow, KSQL, Faust, InfluxDB, Flask
 
-      - role: Python programmer (freelancer)
+
+      - role: Python programmer (freelancer) - hybrid
         time: 01/03/2021 - 26/01/2024
         company: Assetario, Bratislava, Slovakia
         details: |
           Design, analysis and impl. of machine learning approaches for (i) prediction of customer lifetime value in mobile apps and (ii) in-app purchase recommendation system.
+          Related projects:
+           - IAP (In-App-Purchases)
+            - description - data analysis, design and implementation of recommendation system for In-App-Purchases on mobile phones
+            - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn), Weights&Biases
+           - PLTV (Predicted LifeTime Value)
+              - description - data analysis, design and implementation of solution to predict life time value of customers from aggregated data from their earlier in-app behavior and additional auxiliary data
+              - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, H20, DBSCAN, OPTICS), Weights&Biases, 
 
 experiences:
     title: Experience - work
@@ -238,7 +255,7 @@ certifications:
             - ArchiMate 3
   
 projects:
-    title: Projects
+    title: Other projects
     assignments:
       - title: PhD
         tagline: |
@@ -248,11 +265,14 @@ projects:
           - Cloud Performance Analysis and Improvement
           - Smart-home IoT and Cloud Telemetry Datamining
           - Methods Enhancing Work with Cloud Data
-
-      - title: Research (CTTC)
+      - title: Hobby coding
         tagline: |
-          - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
-          - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
+          - SUHEC (SUrname HEritage Classifier)
+            - git repo - https://5uperpalo.github.io/surname_heritage_classifier/
+            - description - A hobby project to classify surnames to countries and areas of the world. An attempt for an open source alternative to paid services.
+          - CHURNPRED (CHURN PREDictor)
+            - git repo - https://github.com/5uperpalo/churnpred
+            - description - Customer churn predictor.
 
 publications:
     title: Publications
