@@ -115,11 +115,11 @@ experiences_recent:
           Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data. For related projects see the *Projects* section.
           Related projects:
           - [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/)
-            - git repo - https://5uperpalo.github.io/success6g-edge/ 
+            - git repo - [https://5uperpalo.github.io/success6g-edge/](https://5uperpalo.github.io/success6g-edge/)
             - description - data analysis and implementation of the solution for classification of rare events in IIoT
             - used technologies - Python(numpy, pandas, matplotlib, etc.), MySQL, MLflow, Kubeflow, Kubernetes(Minio, Prometheus, Zero-to-Jupyterhub, Flower, Kserve, Knative, Istio, Kepler, Grafana, InfluxDB), streamlit, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep)
           - [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/)
-            - git repo - https://github.com/5uperpalo/FIREMAN-project 
+            - git repo - [https://github.com/5uperpalo/FIREMAN-project](https://github.com/5uperpalo/FIREMAN-project)
             - description - data analysis, design, and implementation of the solution for AIoT in V2X
             - used technologies - Python(numpy, pandas, matplotlib, etc.), models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, HDBSCAN, OPTICS, DBSCAN, GANs, GAIN, scikit-multiflow/river, deep-river), MOA, Kafka, Airflow, MLflow, KSQL, Faust, InfluxDB, Flask
 
@@ -130,12 +130,14 @@ experiences_recent:
         details: |
           Design, analysis and impl. of machine learning approaches for (i) prediction of customer lifetime value in mobile apps and (ii) in-app purchase recommendation system.
           Related projects:
-           - IAP (In-App-Purchases)
+          <a name="assetario-projects-iap-anchor"></a>
+          - [IAP (In-App-Purchases)](#assetario-projects-iap-anchor)
             - description - data analysis, design and implementation of recommendation system for In-App-Purchases on mobile phones
             - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn), Weights&Biases
-           - PLTV (Predicted LifeTime Value)
-              - description - data analysis, design and implementation of solution to predict life time value of customers from aggregated data from their earlier in-app behavior and additional auxiliary data
-              - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, H20, DBSCAN, OPTICS), Weights&Biases, 
+          <a name="assetario-projects-pltv-anchor"></a>
+          - [PLTV (Predicted LifeTime Value)](#assetario-projects-pltv-anchor)
+            - description - data analysis, design and implementation of solution to predict life time value of customers from aggregated data from their earlier in-app behavior and additional auxiliary data
+            - used technologies - Python(numpy, pandas, matplotlib, etc.), Athena/SQL, AWS, models(LLMs/Huggingface, Transfrormers, GBMs, sklearn, torch, pytorch-widedeep, H20, DBSCAN, OPTICS), Weights&Biases, 
 
 experiences:
     title: Experience - work
