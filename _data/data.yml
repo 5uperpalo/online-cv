@@ -24,9 +24,9 @@ sidebar:
     github: 5uperpalo
     driving_license: A+B
     diving_certification: OWD
-    pdf_short: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_short.pdf
+    # pdf_short: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_short.pdf
     pdf_full: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_full.pdf
-    pdf_otta: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_otta.pdf
+    pdf_wtj: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_welcome_to_the_jungle.pdf
 
     languages:
       title: Languages
@@ -108,8 +108,14 @@ experiences_oss:
 experiences_recent:
     title: Recent Experience - work
     info:
+      - role: Cybersecurity Data Analyst (freelancer) - hybrid
+        time: 17/09/2024 - now
+        company: Forescout, Eindhoven, Netherlands
+        details: |
+          Analysis and classification of data from diverse security tools and systems. Pattern, anomaly, and potential security threats detection. Research and application of machine learning methods (NLP, LLM, statistics) to enhance and enrich solution outputs.
+
       - role: Data scientist (Researcher) - onsite
-        time: 23/11/2020 - now
+        time: 23/11/2020 - 30/09/2024
         company: CTTC, Barcelona/Castelldefels, Spain
         details: |
           Design and analysis of machine learning approaches for pattern and anomaly detection in synthetic & real-world data. For related projects see the *Projects* section.
