@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Pavol Mulinka
-    tagline: Data Scientist / Engineer / Machine learning Enthusiast
+    tagline: Machine learning Engineer / Data Scientist-Analyst / Programmer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -24,7 +24,6 @@ sidebar:
     github: 5uperpalo
     driving_license: A+B
     diving_certification: OWD
-    # pdf_short: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_short.pdf
     pdf_full: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_full.pdf
     pdf_wtj: https://5uperpalo.github.io/online-cv/pdfs/Pavol_Mulinka_CV_welcome_to_the_jungle.pdf
 
@@ -109,10 +108,10 @@ experiences_recent:
     title: Recent Experience - work
     info:
       - role: Cybersecurity Data Analyst (freelancer) - hybrid
-        time: 17/09/2024 - now
+        time: 17/09/2024 - 31/12/2025
         company: Forescout, Eindhoven, Netherlands
         details: |
-          Analysis and classification of data from diverse security tools and systems. Pattern, anomaly, and potential security threats detection. Research and application of machine learning methods (NLP, LLM, statistics) to enhance and enrich solution outputs.
+          Analysis and classification of data from diverse security tools and systems. Pattern, anomaly, and potential security threats detection. Utilization of prompt engineering and Agentic AI solutions to enhance classification results. Research and application of machine learning methods (NLP, LLM, statistics) to enhance and enrich solution outputs.
 
       - role: Data scientist (Researcher) - onsite
         time: 23/11/2020 - 30/09/2024
@@ -285,6 +284,18 @@ projects:
 publications:
     title: Publications
     papers:
+      - title: Towards High-Fidelity and Trustworthy Digital Twins for Fault Diagnosis in Grid Connected Inverters
+        authors: Pavol Mulinka, Ioannis T Christou, Subham Sahoo, Charalampos Kalalas, Pedro HJ Nardell
+        conference: IEEE Transactions on Dependable and Secure Computing, 2025
+
+      - title: AI-Driven Vehicle Condition Monitoring with Cell-Aware Edge Service Migration
+        authors: Charalampos Kalalas, Pavol Mulinka, Guillermo Candela Belmonte, Miguel Fornell, Michail Dalgitsis, Francisco Paredes Vera, Javier Santaella Sánchez, Carmen Vicente Villares, Roshan Sedar, Eftychia Datsika, Angelos Antonopoulos, Antonio Fernández Ojea, Miquel Payaro
+        conference: BalkanCom, 2025
+
+      - title: Federated Learning in Mobile Networks - A Comprehensive Case Study on Traffic Forecasting
+        authors: Pavlidis, Nikolaos and Perifanis, Vasileios and Yilmaz, Selim F. and Wilhelmi, Francesc and Miozzo, Marco and Efraimidis, Pavlos S. and Koutsiamanis, Remous-Aris and Mulinka, Pavol and Dini, Paolo
+        conference: IEEE Transactions on Sustainable Computing, 2025
+
       - title: pytorch-widedeep A flexible package for multimodal deep learning
         authors: Zaurin, Javier Rodriguez and Mulinka, Pavol
         conference: Journal of Open Source Software, 2023
@@ -368,13 +379,25 @@ skills:
       - name: Python
         level: 75%
 
+      - name: Javascript
+        level: 40%
+
+      - name: SQL/KQL
+        level: 50%
+
+      - name: Prompt engineering/Agentic AI
+        level: 70%
+
       - name: Kubernetes/Helm/Docker
         level: 65%
 
-      - name: Machine learning
+      - name: Machine/Deep/LLM learning
         level: 80%
 
-      - name: Linux/Unix
+      - name: Cloud(AWS, Azure, GCP)
+        level: 60%
+
+      - name: Linux/Unix/Bash
         level: 60%
 
       - name: Networking
