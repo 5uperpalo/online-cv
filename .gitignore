@@ -34,15 +34,6 @@ the-most-llm-friendly-cv-ever/
 *.swo
 *~
 
-# Output files
-cv.md
-*.pdf
-*.docx
-*.doc
-index.html
-docs/
-*.html
-
 # Jupyter Notebook
 .ipynb_checkpoints
 

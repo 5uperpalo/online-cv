@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - The Most LLM-Friendly CV Ever</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #7f8c8d;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Publications section - smaller font for list items */
+        .publications-header + ul li {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        /* PDF Download icon */
+        .pdf-download {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: #3498db;
+            color: white;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        .pdf-download:hover {
+            background-color: #2980b9;
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .pdf-download svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media print {
+            body {
+                max-width: 100%;
+                padding: 0;
+            }
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="cv.pdf" class="pdf-download" title="Download PDF version" download="cv.pdf">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18M12,19L8,15H11V12H13V15H16L12,19Z"/>
+        </svg>
+    </a>
+    <h1>Pavol Mulinka</h1>
+<p>+34 661816178 | <a href="mailto:mulinka.pavol@gmail.com">mulinka.pavol@gmail.com</a> | <a href="http://github.com/5uperpalo">Github</a> | <a href="https://scholar.google.com/citations?user=zsJ4nfoAAAAJ">Google scholar</a> | <a href="https://orcid.org/0000-0002-9394-8794">Orcid</a> | <a href="https://www.scopus.com/authid/detail.uri?authorId=53980138500">Scopus</a>| <a href="https://www.webofscience.com/wos/author/rid/ABG-8213-2020">WoS</a> | </p>
+<h2>Summary</h2>
+<p>I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI developer, and former network engineer. I focus on applied science and open source solutions.</p>
+<h2>Skills</h2>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>level</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>Advanced</td>
+<td>sklearn, Flask, FastAPI, pandas, data scripts, pytorch, etc.</td>
+</tr>
+<tr>
+<td>Javascript</td>
+<td>Beginner</td>
+<td>solutions improvement, MOA scripting and usage</td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>Intermediate</td>
+<td>querying, data analysis, local database administration</td>
+</tr>
+<tr>
+<td>KQL</td>
+<td>Intermediate</td>
+<td>querying, data analysis</td>
+</tr>
+<tr>
+<td>Prompt engineering</td>
+<td>Advanced</td>
+<td>Ollama, Azure OpenAI SDK, Google GenAI SDK</td>
+</tr>
+<tr>
+<td>Agentic AI</td>
+<td>Intermediate</td>
+<td>Langchain, Langsmith</td>
+</tr>
+<tr>
+<td>Kubernetes</td>
+<td>Intermediate</td>
+<td>Microk8s, K3s, Helm charts, administrator, Fireman and SUCCESS6G projects</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td>Intermediate</td>
+<td>dockerization of multiple solutions</td>
+</tr>
+<tr>
+<td>Machine Learning</td>
+<td>Advanced</td>
+<td>prediction pipelines, data analysis</td>
+</tr>
+<tr>
+<td>Deep Learning</td>
+<td>Intermediate</td>
+<td>prediction pipelines, data analysis, pytorch-widedeep</td>
+</tr>
+<tr>
+<td>Cloud</td>
+<td>Intermediate</td>
+<td>AWS, Azure, GCP</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Intermediate</td>
+<td>Bash, scripting, lightweight solutions</td>
+</tr>
+<tr>
+<td>Networking</td>
+<td>Intermediate</td>
+<td>design, implementation, troubleshooting</td>
+</tr>
+<tr>
+<td>etc.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Languages</h2>
+<ul>
+<li><strong>Spanish</strong> - bilingual</li>
+<li><strong>English</strong> - bilingual</li>
+<li><strong>Czech</strong> - bilingual</li>
+<li><strong>Slovak</strong> - native</li>
+</ul>
+<h2>Work Experience</h2>
+<ul>
+<li><strong>Cybersecurity Data Analyst</strong>, freelancer, hybrid, Forescout - NL (17/09/2024 - 31/12/2025)<ul>
+<li><strong>description</strong>: analysis and classification of data from diverse security tools and systems; pattern, anomaly, and potential security threats detection; prompt engineering and Agentic AI solutions to enhance classification results; research and application of machine learning methods to enhance and enrich solution outputs</li>
+<li><strong>keywords</strong>: applied research, data analysis, data science, machine learning, statistics, text processing, investigation</li>
+<li><strong>technologies</strong>: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data scientist</strong>, full-time, onsite, CTTC - ES (23/11/2020 - 30/09/2024)<ul>
+<li><strong>description</strong>: design and analysis of machine learning approaches for pattern and anomaly detection in both real-world and synthetic data</li>
+<li><strong>keywords</strong>: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G</li>
+<li><strong>technologies</strong>: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&amp;Biases, DBSCAN, OPTICS, sklearn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Python developer</strong>, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)<ul>
+<li><strong>description</strong>: design, analysis and implementation of machine learning approaches for prediction of customer lifetime value in mobile apps and in-app purchase recommendation system</li>
+<li><strong>keywords</strong>: data analysis, data science, machine learning, deep learning, recommendation system, In-App-Purchases, mobile phones, Predicted Lifetime Value (pLTV), programming, statistics</li>
+<li><strong>technologies</strong>: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&amp;Biases, H20, DBSCAN, OPTICS, sklearn, pytorch, MLflow, Github</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Python developer</strong>, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)<ul>
+<li><strong>description</strong>: design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI</li>
+<li><strong>keywords</strong>: containerization, in-memory database, web, multi-processing, unit testing,procedural programming, object oriented programming, code refactorization</li>
+<li><strong>technologies</strong>: Docker, Redis, Flask, Celery, Python, Github</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>F5 loadbalancer specialist</strong>, freelancer, remote, Oksystems - CZ (01/12/2021 - 01/10/2022)<ul>
+<li><strong>description</strong>: migration of existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project</li>
+<li><strong>keywords</strong>: migration, scripting, loadbalancer, firewall</li>
+<li><strong>technologies</strong>: F5, XML, bash, Postman</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contract, onsite, NII Tokyo - JP (08/03/2019 - 03/09/2019)<ul>
+<li><strong>description</strong>: application of the unsupervised machine learning approaches to network traces; generalization and improvement of the hierarchical density-based clustering approach to netwrok measurements interpretation; refactoring of code running in distributed computational environment</li>
+<li><strong>keywords</strong>: MAWI, Darknet, anomaly detection, big data, machine learning, deep learning</li>
+<li><strong>technologies</strong>: PySpark, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contract, onsite, O2 Telefonica - ES (21/11/2018 - 20/02/2019)<ul>
+<li><strong>description</strong>: analysis of the relations between socioeconomic status of customers and network performance and investigation of potential discrimination in network deployment and management; correlating public database information and operator measurements by Geographic Information System in distributed computing environment</li>
+<li><strong>keywords</strong>: Lower-layer Super Output Areas (LSOA), data analysis, machine learning, geospatial machine learning</li>
+<li><strong>technologies</strong>: QGIS, ArcGIS, GeoPandas, PySpark, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contract, onsite, AIT Vienna - AT (01/03/2018 - 31/08/2018)<ul>
+<li><strong>description</strong>: cybersecurity and network performance analysis; anomaly detection and diagnosis; application of machine learning techniques on network measurement datasets; integration of machine learning approaches into big data analytics platforms <a href="https://bigdama.ait.ac.at/">BIG-DAMA project</a></li>
+<li><strong>keywords</strong>: stream-based machine learning, supervised machine learning, unsupervised machine learning, MAWI, Cloud latency, network performance analysis, anomaly detection, big data</li>
+<li><strong>technologies</strong>: Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Network engineer</strong>, full-time, onsite, CZ and SK (01/08/2007 - 20/11/2018)<ul>
+<li>positions in descending order:<ul>
+<li>Network Engineer (VSHosting, Prague, CZ)</li>
+<li>Network Consulting Engineer (Verizon, Prague, CZ)</li>
+<li>Senior System Engineer (ATT, Bratislava, SK)</li>
+<li>HP Radia Specialist (Soitron, Bratislava, SK)</li>
+<li>HP Monitoring Support Specialist (Soitron, Bratislava, SK)</li>
+<li>IT VoIP support specialist (Soitron, Bratislava, SK)</li>
+</ul>
+</li>
+<li><strong>description</strong>: design, delivery, documentation, troubleshooting and support of Networks</li>
+<li><strong>keywords</strong>: networking, voip, wireless, vpn, security, firewall, design, troubleshooting, implementation</li>
+<li><strong>technologies</strong>: bash, IOS</li>
+</ul>
+</li>
+</ul>
+<h2>Teaching Experience</h2>
+<ul>
+<li><strong>"Sakura Science Plan" Mentor</strong>, NII, Tokyo - JP (2019)</li>
+<li><strong>"Network Operating Systems" Teaching assistant</strong>, FEE, CTU, Prague - CZ (2015, 2016 winter semester)</li>
+<li><strong>"Digital Engineering" Teaching assistant</strong>, FEE, CTU, Prague - CZ (2014 winter semester)</li>
+<li><strong>"Communication Processes Control" Teaching assistant</strong>, FEE, CTU, Prague - CZ (2014 and 2015 summer semester)</li>
+</ul>
+<h2>Projects</h2>
+<h3>Research</h3>
+<ul>
+<li><a href="https://success-6g-project.cttc.es/">SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G</a>, <a href="https://5uperpalo.github.io/success6g-edge/">github</a>, Co-investigator, CTTC - ES (2020-2024)</li>
+<li><a href="https://fireman-project.eu/">FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)</a>, <a href="https://github.com/5uperpalo/FIREMAN-project">github</a>, Co-investigator, CTTC - ES (2020-2024)</li>
+<li><strong>Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools</strong>, Principal investigator, FEE, CTU, Prague - CZ (2018)</li>
+<li><strong>Privacy Protection and Machine Learning Utilization of IoT Data in Cloud</strong>, Principal investigator, FEE, CTU, Prague - CZ (2017)</li>
+<li><strong>Cloud Performance Analysis and Improvement</strong>, Principal investigator, FEE, CTU, Prague - CZ (2016)</li>
+<li><strong>Smart-home IoT and Cloud Telemetry Datamining</strong>, Principal investigator, FEE, CTU, Prague - CZ (2015)</li>
+<li><strong>Metrics for Automated Detection of Cloud Anomalous Behavior</strong>, Principal investigator, Cisco Systems - CZ (2014)</li>
+<li><strong>Methods Enhancing Work with Cloud Data</strong>, Principal investigator, FEE, CTU, Prague - CZ (2013)</li>
+</ul>
+<h3>Open Source</h3>
+<ul>
+<li><strong>pytorch-widedeep</strong>, Collaborator (2021-2024)<ul>
+<li><strong>main collaborations</strong>: <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/77">Deep Imbalanced Regression</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/62">New loss functions</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/42">Custom Imbalanced DataLoader</a></li>
+</ul>
+</li>
+<li><strong>Wikimedia Scoring platform team</strong>, External collaborator (2020-2021)<ul>
+<li><strong>main collaborations under</strong> <a href="https://phabricator.wikimedia.org/p/Pavol86/">Pavol86</a>: <a href="https://phabricator.wikimedia.org/T111179">Compress Gensim models</a>, <a href="https://github.com/mediawiki-utilities/python-mwtext/pull/8">python-mwtext</a>, <a href="https://phabricator.wikimedia.org/T247523#6200697">Tokenization of ”word” things for CJK</a>, <a href="https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall">deltas</a>, <a href="https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">revscoring</a>, <a href="https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">editquality</a></li>
+</ul>
+</li>
+</ul>
+<h2>Education</h2>
+<ul>
+<li><strong>PhD</strong>, Telecommunications, Faculty of Electrical Engineering, Czech Technical University, Prague - CZ (2013 - 2021)<ul>
+<li><strong>thesis</strong>: "Hierarchical density-based clustering and interpretation for network measurements"<ul>
+<li>detect and interpret unknown patterns in passive/active network/Cloud measurements by hierarchical density-based unsupervised machine learning techniques</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>MSc</strong>, Telecommunications, Faculty of electrical engineering,  Slovak University of Technology, Bratislava - SK (2007 - 2009)  <ul>
+<li><strong>thesis</strong>: "Classificators for identification of the speaker"</li>
+</ul>
+</li>
+<li><strong>Bc</strong>, Telecommunications, Faculty of electrical engineering,  Slovak University of Technology, Bratislava - SK (2004 - 2007)<ul>
+<li><strong>thesis</strong>: "Measurement of glottal period of human voice"</li>
+</ul>
+</li>
+</ul>
+<h2>Courses and certifications</h2>
+<ul>
+<li><strong>Cisco Certified Network Associate (CCNA, 640-802)</strong>, (640-553) Implementing Cisco IOS Network Security, (640-460) Implementing Cisco IOS Unified Communications, (640-721) Implementing Cisco Unified Wireless Network Essentials</li>
+<li><strong>Cisco Certified Design Associate (CCDA)</strong>; (640-863) Designing for Cisco Internetwork Solutions</li>
+<li><strong>Cisco Certified Network Professional (CCNP)</strong>; (642-901) Building Scalable Cisco Internetworks, (642-812) Building Cisco Multilayer Switched Networks, (642-825) Implementing Secure Converged Wide Area Networks, (642-845) Optimizing Converged Cisco Networks</li>
+<li><strong>Cisco Certified Internetwork Professional (CCIP)</strong>; (642-642) Quality of Service, (642-611) Multiprotocol Label Switching, (642-661) Border Gateway Protocol</li>
+<li><strong>Cisco Certified Design Professional (CCDP)</strong>; (300-31)  Designing Cisco Network Service, (642-873) Designing Cisco Network Service Architectures</li>
+<li><strong>Conducting Cisco Unified Wireless Site Survey (CUWSS, 642-731)</strong></li>
+<li><strong>Implementing Cisco Edge Network Security Solutions (SENSS, 300-206)</strong></li>
+<li><strong>F5 Certified Product Consultant for LTM</strong>; F5-PCL, F50-531</li>
+<li><strong>F5 Certified Administrator</strong>; (101) Application Delivery Fundamentals, (201) TMOS Administration</li>
+<li><strong>Juniper Networks Certified Internet Associate EX (JNCIA-EX, JN0-400)</strong></li>
+<li><strong>Information Technology Infrastructure Library Foundation in IT Service Management (ITILv3, Foundation)</strong></li>
+<li><strong>The Open Group Architecture Framework (TOGAF 9)</strong></li>
+<li><strong>ArchiMate 3</strong></li>
+<li><strong>driving license A+B</strong></li>
+<li><strong>diving license OWD</strong></li>
+</ul>
+<h2 class="publications-header">Publications</h2>
+<ul>
+<li>Pavol Mulinka and Christou, Ioannis T. and Subham Sahoo and Charalampos Kalalas and Nardell, Pedro H.J.. (Oct 2025). "Towards High-Fidelity and Trustworthy Digital Twins for Fault Diagnosis in Grid Connected Inverters". In: IEEE Transactions on Dependable and Secure Computing. doi: 10.1109/TDSC.2025.3626846.</li>
+<li>Pavlidis, Nikolaos and Perifanis, Vasileios and Yilmaz, Selim F. and Wilhelmi, Francesc and Miozzo, Marco and Efraimidis, Pavlos S. and Koutsiamanis, Remous-Aris and Mulinka, Pavol and Dini, Paolo. (May 2025). "Federated Learning in Mobile Networks: A Comprehensive Case Study on Traffic Forecasting". In: IEEE Transactions on Sustainable Computing. pp. 576-587. doi: 10.1109/TSUSC.2024.3504242.</li>
+<li>Charalampos Kalalas and Pavol Mulinka and Guillermo Candela Belmonte and Miguel Fornell and Michail Dalgitsis and Francisco Paredes Vera and Javier Santaella Sánchez and Carmen Vicente Villares and Roshan Sedar and Eftychia Datsika and Angelos Antonopoulos and Antonio Fernández Ojea and Miquel Payaro. (2025). "AI-Driven Vehicle Condition Monitoring with Cell-Aware Edge Service Migration". url: https://arxiv.org/abs/2506.02785.</li>
+<li>Zaurin, Javier Rodriguez and Mulinka, Pavol. (Jun 2023). "pytorch-widedeep: A flexible package for multimodal deep learning". In: Journal of Open Source Software. pp. 5027. doi: 10.21105/joss.05027. url: https://joss.theoj.org/papers/10.21105/joss.05027.</li>
+<li>Beattie, Alexander and Mulink, Pavol and Sahoo, Subham and Christou, Ioannis T. and Kalalas, Charalampos and Gutierrez-Rojas, Daniel and Nardelli, Pedro H. J.. (2022). "A Robust and Explainable Data-Driven Anomaly Detection Approach For Power Electronics". In: 2022 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm). pp. 296-301. doi: 10.1109/SmartGridComm52983.2022.9961002.</li>
+<li>Mulinka, Pavol and Sahoo, Subham and Kalalas, Charalampos and Nardelli, Pedro H. J.. (2022). "Optimizing a Digital Twin for Fault Diagnosis in Grid Connected Inverters - A Bayesian Approach". In: 2022 IEEE Energy Conversion Congress and Exposition (ECCE). pp. 1-6. doi: 10.1109/ECCE50734.2022.9947986.</li>
+<li>Park, Souneil and Mulinka, Pavol and Perino, Diego. (2022). "A Large-Scale Examination of ”Socioeconomic” Fairness in Mobile Networks". In: Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies. pp. 248–256. doi: 10.1145/3530190.3534809. url: https://doi.org/10.1145/3530190.3534809.</li>
+<li>Mulinka, Pavol and Kalalas, Charalampos and Dzaferagic, Merim and Macaluso, Irene and Rojas, Daniel Gutierrez and Nardelli, Pedro Juliano and Marchetti, Nicola. (2021). "Information processing and data visualization in networked industrial systems". In: 2021 IEEE 32nd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC). pp. 1--6.</li>
+<li>Casas, Pedro and Mulinka, Pavol and Vanerio, Juan. (2021). "NetSEC at High-Speed: Distributed Stream Learning for Security in Big Networking Data". In: Data Science--Analytics and Applications. pp. 97--104.</li>
+<li>Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro. (2020). "Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis". In: IEEE Transactions on Network and Service Management.</li>
+<li>Mulinka, Pavol and Casas, Pedro and Fukuda, Kensuke and Kencl, Lukas. (2020). "HUMAN - Hierarchical Clustering for Unsupervised Anomaly Detection &amp; Interpretation". In: 11th international Conferece on Network of the Future.</li>
+<li>Mulinka, Pavol and Fukuda, Kensuke and Casas, Pedro and Kencl, Lukas. (2020). "WhatsThat? On the Usage of Hierarchical Clustering for Unsupervised Detection &amp; Interpretation of Network Attacks". In: The 5th International Workshop on Traffic Measurements for Cybersecurity.</li>
+<li>Casas, Pedro and Mulinka, Pavol and Vanerio, Juan. (2019). "Should I (re)Learn or Should I Go(on)? Stream Machine Learning for Adaptive Defense against Network Attacks". In: The 6th ACM Workshop on Moving Target Defense (MTD 2019).</li>
+<li>Mulinka, Pavol and Casas, Pedro and Vanerio, Juan. (2019). "Continuous and Adaptive Learning over Big Streaming Data for Network Security". In: IEEE International Conference on Cloud Networking CLOUDNET, 2019 International Conference on.</li>
+<li>Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro. (2019). "ADAM &amp; RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring". In: 15th International Conference on Network and Service Management.</li>
+<li>Mulinka, Pavol and Wassermann, Sarah and Marín, Gonzalo and Casas, Pedro. (2018). "Remember the Good, Forget the Bad, do it Fast: Continuous Learning over Streaming Data". In: @NeurIPS 2018 Workshops, Workshop on Continual Learning.</li>
+<li>Mulinka, Pavol and Casas, Pedro and Kencl, Lukas. (2018). "Hi-Clust: Unsupervised Analysis of Cloud Latency Measurements through Hierarchical Clustering". In: IEEE International Conference on Cloud Networking CLOUDNET, 2018 International Conference on.</li>
+<li>Mulinka, Pavol and Casas, Pedro. (2018). "Stream-based Machine Learning for Network Security and Anomaly Detection". In: Proc. of the Workshop on Big Data Analytics and ML for Data Comm. Net., Big-DAMA@SIGCOMM.</li>
+<li>Mulinka, Pavol and Casas, Pedro. (2018). "Adaptive Network Security through Stream Machine Learning". In: Proceedings of the ACM SIGCOMM '18 Posters and Demos.</li>
+<li>Tomanek, Ondrej and Mulinka, Pavol and Kencl, Lukas. (2016). "Multidimensional cloud latency monitoring and evaluation". In: Computer Networks. pp. 104--120.</li>
+<li>Mulinka, Pavol and Kencl, Lukas. (2015). "Learning from Cloud latency measurements". In: Communication Workshop (ICCW), 2015 IEEE International Conference on. pp. 1895--1901.</li>
+<li>Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol. (2011). "Speaker identification by K-Nearest Neighbors: Application of PCA and LDA prior to KNN". In: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on. pp. 1--4.</li>
+</ul>
+<h2>Interests</h2>
+<p>climbing, bouldering, motorcycles, ceramics, pottery, hiking, nature</p>
+</body>
+</html>
