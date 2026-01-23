@@ -1,0 +1,105 @@
+#!/usr/bin/env python3
+"""
+Main entry point for CV operations
+Supports:
+1. Regenerate Publications section from bibliography.bib
+2. Export CV to PDF
+3. Publish CV to web (HTML)
+"""
+
+import argparse
+import sys
+from pathlib import Path
+from cv_generator import CVGenerator
+from exporters import export_to_pdf
+from web_generator import generate_html, setup_github_pages
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='CV Management Tool - Regenerate publications, export, or publish to web'
+    )
+
+    # Option 1: Regenerate publications
+    parser.add_argument(
+        '--regenerate-publications',
+        action='store_true',
+        help='Regenerate Publications section from bibliography.bib'
+    )
+
+    # Option 2: Export to PDF
+    parser.add_argument(
+        '--export-pdf',
+        action='store_true',
+        help='Export CV to PDF format'
+    )
+
+    # Option 3: Publish to web
+    parser.add_argument(
+        '--publish-web',
+        action='store_true',
+        help='Generate HTML version and setup for web publishing'
+    )
+    parser.add_argument(
+        '--web-output',
+        default='docs/index.html',
+        help='Output HTML file path for web version (default: docs/index.html)'
+    )
+
+    # Optional: specify CV file
+    parser.add_argument(
+        '--cv-file',
+        default='cv.md',
+        help='Path to CV markdown file (default: cv.md)'
+    )
+
+    args = parser.parse_args()
+
+    # If no action specified, show help
+    if not any([args.regenerate_publications, args.export_pdf, args.publish_web]):
+        parser.print_help()
+        return
+
+    cv_path = Path(args.cv_file)
+
+    # Option 1: Regenerate publications
+    if args.regenerate_publications:
+        print("Regenerating Publications section from bibliography.bib...")
+        try:
+            generator = CVGenerator(cv_path=str(cv_path))
+            updated_path = generator.regenerate_publications()
+            print(f"✓ Publications section updated in: {updated_path}")
+        except Exception as e:
+            print(f"✗ Error: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    # Option 2: Export to PDF
+    if args.export_pdf:
+        print(f"Exporting {cv_path} to PDF...")
+        try:
+            pdf_path = export_to_pdf(str(cv_path))
+            print(f"✓ PDF exported: {pdf_path}")
+        except Exception as e:
+            print(f"✗ Error: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    # Option 3: Publish to web
+    if args.publish_web:
+        print(f"Generating web version from {cv_path}...")
+        try:
+            # Look for PDF file
+            pdf_file = Path("cv.pdf")
+            pdf_path = str(pdf_file) if pdf_file.exists() else None
+            html_path = generate_html(str(cv_path), args.web_output, pdf_path=pdf_path)
+            setup_github_pages(Path(args.web_output).parent, pdf_source=pdf_path)
+            print(f"✓ Web version generated: {html_path}")
+            print(f"✓ GitHub Pages directory setup: {Path(args.web_output).parent}")
+        except Exception as e:
+            print(f"✗ Error: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    print("\n✓ Done!")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,20 @@
+# Core dependencies
+bibtexparser>=1.4.0
+markdown>=3.4.0
+mdx-truly-sane-lists>=1.0.0
+
+# Optional dependencies for enhanced features
+# Install pandoc separately for PDF export:
+# - macOS: brew install pandoc
+# - Linux: sudo apt-get install pandoc
+# - Windows: choco install pandoc
+# Or download from: https://pandoc.org/installing.html
+
+# For Jupyter notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# For development (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0

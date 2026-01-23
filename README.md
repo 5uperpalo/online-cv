@@ -1,90 +1,118 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# The Most LLM-Friendly CV Ever
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
-> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
+A simple CV management tool that supports three core operations:
+1. **Regenerate Publications** - Update the Publications section from `bibliography.bib`
+2. **Export** - Export CV to PDF format
+3. **Publish to Web** - Generate HTML version for web publishing
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+## Quick Start
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
-
-## Installation
-
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
-* Go to settings and set master branch as Github Pages source;
-* Your new site should be ready at `https://<username>.github.io/online-cv/`;
-* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link e.g. https://www.web2pdfconvert.com/ and change settings to A4 Narrow.
-
-Change all the details from one place: `_data/data.yml`.
-
-### To preview/edit locally with docker
-
-```sh
-docker-compose up
-```
-
-*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
-
-### Local machine
-
-* Get the repo into your machine 
+### Installation
 
 ```bash
-git clone https://github.com/sharu725/online-cv.git
+# Create virtual environment
+python -m venv the-most-llm-friendly-cv-ever
+source the-most-llm-friendly-cv-ever/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install pandoc (for PDF export)
+# macOS: brew install pandoc
+# Linux: sudo apt-get install pandoc
+# Windows: choco install pandoc
 ```
 
-* Install required ruby gems
+## Usage
+
+### 1. Regenerate Publications Section
+
+Update the Publications section in your CV from `bibliography.bib`:
 
 ```bash
-bundle install
+python main.py --regenerate-publications
 ```
 
-* Serve the site locally
+This will:
+- Parse `bibliography.bib`
+- Extract all publications
+- Sort them by date (newest first)
+- Replace the Publications section in `cv.md`
+
+### 2. Export CV
+
+Export your CV to PDF:
 
 ```bash
-bundle exec jekyll serve
+# Export to PDF
+python main.py --export-pdf
 ```
 
-* Navigate to `http://localhost:4000`
+### 3. Publish to Web
 
+Generate HTML version for web publishing:
 
-## Skins
+```bash
+python main.py --publish-web
+```
 
-There are 6 color schemes available:
+This will:
+- Generate `docs/index.html` from your CV
+- Setup GitHub Pages directory structure
+- Create `.nojekyll` file for GitHub Pages
 
-| Blue                                                                          | Turquoise                                                                          | Green                                                                          |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+You can specify a custom output path:
 
-| Berry                                                                          | Orange                                                                          | Ceramic                                                                          |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+```bash
+python main.py --publish-web --web-output path/to/index.html
+```
 
-## Credits
+## Options
 
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+```bash
+python main.py [OPTIONS]
 
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+Options:
+  --regenerate-publications    Regenerate Publications section from bibliography.bib
+  --export-pdf                 Export CV to PDF format
+  --publish-web                 Generate HTML version for web publishing
+  --web-output PATH             Output HTML file path (default: docs/index.html)
+  --cv-file PATH                Path to CV markdown file (default: cv.md)
+```
 
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+## GitHub Pages Deployment
 
-## Star History
+After running `--publish-web`, you can deploy to GitHub Pages:
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+1. Push the `docs/` directory to your repository
+2. Enable GitHub Pages in repository settings
+3. Point it to the `docs` folder
 
+Your CV will be available at: `https://<username>.github.io/<repo-name>/`
+
+## Examples
+
+```bash
+# Regenerate publications and export to PDF
+python main.py --regenerate-publications --export-pdf
+
+# Generate web version
+python main.py --publish-web
+
+# All operations at once
+python main.py --regenerate-publications --export-pdf --publish-web
+```
+
+## Troubleshooting
+
+### Pandoc Not Found
+Make sure pandoc is installed and in your PATH:
+```bash
+pandoc --version
+```
+
+### Publications Section Not Found
+Make sure your `cv.md` has a `## Publications` section.
+
+### Bibliography Parse Errors
+Check that `bibliography.bib` is valid BibTeX format.
