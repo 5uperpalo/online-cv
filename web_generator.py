@@ -23,7 +23,7 @@ def generate_html(cv_markdown_path: str, output_path: str = "index.html",
         cv_markdown_path: Path to markdown CV file
         output_path: Path to output HTML file
         template_path: Optional custom HTML template
-        pdf_path: Optional path to PDF file (default: cv.pdf in same dir as output)
+        pdf_path: Optional path to PDF file (default: pavol_mulinka_cv.pdf in same dir as output)
     
     Returns:
         Path to generated HTML file
@@ -68,8 +68,8 @@ def generate_html(cv_markdown_path: str, output_path: str = "index.html",
         # Use just the filename since PDF will be copied to same dir as HTML
         pdf_link = pdf_path_obj.name
     else:
-        # Default: cv.pdf in same directory as HTML
-        pdf_link = "cv.pdf"
+        # Default: pavol_mulinka_cv.pdf in same directory as HTML
+        pdf_link = "pavol_mulinka_cv.pdf"
     
     # Create HTML template
     if template_path and Path(template_path).exists():
@@ -206,7 +206,7 @@ def generate_html(cv_markdown_path: str, output_path: str = "index.html",
     </style>
 </head>
 <body>
-    <a href="{pdf_link}" class="pdf-download" title="Download PDF version" download="cv.pdf">
+    <a href="{pdf_link}" class="pdf-download" title="Download PDF version" download="pavol_mulinka_cv.pdf">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18M12,19L8,15H11V12H13V15H16L12,19Z"/>
         </svg>
@@ -232,7 +232,7 @@ def setup_github_pages(output_dir: str = "docs", pdf_source: Optional[str] = Non
     
     Args:
         output_dir: Output directory for GitHub Pages (default: docs)
-        pdf_source: Optional path to source PDF file to copy (default: cv.pdf)
+        pdf_source: Optional path to source PDF file to copy (default: pavol_mulinka_cv.pdf)
     """
     if isinstance(output_dir, str):
         docs_dir = Path(output_dir)
@@ -249,7 +249,7 @@ def setup_github_pages(output_dir: str = "docs", pdf_source: Optional[str] = Non
     if pdf_source:
         pdf_source_path = Path(pdf_source)
     else:
-        pdf_source_path = Path("cv.pdf")
+        pdf_source_path = Path("pavol_mulinka_cv.pdf")
     
     if pdf_source_path.exists():
         pdf_dest = docs_dir / pdf_source_path.name

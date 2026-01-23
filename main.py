@@ -49,8 +49,8 @@ def main():
     # Optional: specify CV file
     parser.add_argument(
         '--cv-file',
-        default='cv.md',
-        help='Path to CV markdown file (default: cv.md)'
+        default='pavol_mulinka_cv.md',
+        help='Path to CV markdown file (default: pavol_mulinka_cv.md)'
     )
 
     args = parser.parse_args()
@@ -88,7 +88,7 @@ def main():
         print(f"Generating web version from {cv_path}...")
         try:
             # Look for PDF file
-            pdf_file = Path("cv.pdf")
+            pdf_file = Path("pavol_mulinka_cv.pdf")
             pdf_path = str(pdf_file) if pdf_file.exists() else None
             html_path = generate_html(str(cv_path), args.web_output, pdf_path=pdf_path)
             setup_github_pages(Path(args.web_output).parent, pdf_source=pdf_path)

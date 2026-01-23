@@ -166,6 +166,7 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
 * Mulinka, Pavol and Kencl, Lukas. (2015). "Learning from Cloud latency measurements". In: Communication Workshop (ICCW), 2015 IEEE International Conference on. pp. 1895--1901.
 * Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol. (2011). "Speaker identification by K-Nearest Neighbors: Application of PCA and LDA prior to KNN". In: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on. pp. 1--4.
 
+
 ## Interests
 
 climbing, bouldering, motorcycles, ceramics, pottery, hiking, nature
