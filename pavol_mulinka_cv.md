@@ -1,6 +1,6 @@
 # Pavol Mulinka
 
-**tel.num:** +34 661816178 | **address:** Barcelona, Catolunya, Spain | **email:** [mulinka.pavol@gmail.com](mailto:mulinka.pavol@gmail.com) | **Linkedin:** [https://www.linkedin.com/in/mulinka/](https://www.linkedin.com/in/mulinka/) | **Github:** [http://github.com/5uperpalo](http://github.com/5uperpalo) | **Google scholar:** [https://scholar.google.com/citations?user=zsJ4nfoAAAAJ](https://scholar.google.com/citations?user=zsJ4nfoAAAAJ)
+**tel.num:** +34 661816178 | **address:** Barcelona, Catalunya, Spain | **email:** [mulinka.pavol@gmail.com](mailto:mulinka.pavol@gmail.com) | **Linkedin:** [https://www.linkedin.com/in/mulinka/](https://www.linkedin.com/in/mulinka/) | **Github:** [http://github.com/5uperpalo](http://github.com/5uperpalo) | **Google scholar:** [https://scholar.google.com/citations?user=zsJ4nfoAAAAJ](https://scholar.google.com/citations?user=zsJ4nfoAAAAJ)
 
 ## Summary
 
