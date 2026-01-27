@@ -9,3 +9,5 @@ mdx-truly-sane-lists>=1.0.0
 # - Linux: sudo apt-get install pandoc
 # - Windows: choco install pandoc
 # Or download from: https://pandoc.org/installing.html
+# also install xelatex for PDF export
+# - Windows: choco install miktex.install -y

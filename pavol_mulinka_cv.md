@@ -1,6 +1,6 @@
 # Pavol Mulinka
 
-+34 661816178 | [mulinka.pavol@gmail.com](mailto:mulinka.pavol@gmail.com) | [Github](http://github.com/5uperpalo) | [Google scholar](https://scholar.google.com/citations?user=zsJ4nfoAAAAJ) | [Orcid](https://orcid.org/0000-0002-9394-8794) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=53980138500)| [WoS](https://www.webofscience.com/wos/author/rid/ABG-8213-2020) | 
+**tel.num:** +34 661816178 | **address:** Barcelona, Catolunya, Spain | **email:** [mulinka.pavol@gmail.com](mailto:mulinka.pavol@gmail.com) | **Linkedin:** [https://www.linkedin.com/in/mulinka/](https://www.linkedin.com/in/mulinka/) | **Github:** [http://github.com/5uperpalo](http://github.com/5uperpalo) | **Google scholar:** [https://scholar.google.com/citations?user=zsJ4nfoAAAAJ](https://scholar.google.com/citations?user=zsJ4nfoAAAAJ)
 
 ## Summary
 
@@ -8,46 +8,48 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
 
 ## Skills
 
-| name                | level        | notes                                                                     |
-|---------------------|--------------|---------------------------------------------------------------------------|
-| Python              | Advanced     | sklearn, Flask, FastAPI, pandas, data scripts, pytorch, etc.              |
-| Javascript          | Beginner     | solutions improvement, MOA scripting and usage                            |
-| SQL                 | Intermediate | querying, data analysis, local database administration                    |
-| KQL                 | Intermediate | querying, data analysis                                                   |
-| Prompt engineering  | Advanced     | Ollama, Azure OpenAI SDK, Google GenAI SDK                                |
-| Agentic AI          | Intermediate | Langchain, Langsmith                                                      |
-| Kubernetes          | Intermediate | Microk8s, K3s, Helm charts, administrator, Fireman and SUCCESS6G projects |
-| Docker              | Intermediate | dockerization of multiple solutions                                       |
-| Machine Learning    | Advanced     | prediction pipelines, data analysis                                       |
-| Deep Learning       | Intermediate | prediction pipelines, data analysis, pytorch-widedeep                     |
-| Cloud               | Intermediate | AWS, Azure, GCP                                                           |
-| Linux               | Intermediate | Bash, scripting, lightweight solutions                                    |
-| Networking          | Intermediate | design, implementation, troubleshooting                                   |
-| etc.                |              |                                                                           |
+| name                | level        | notes                                                                           |
+|---------------------|--------------|---------------------------------------------------------------------------------|
+| Python              | Advanced     | Scikit-learn, Flask, FastAPI, Pandas, SQLAlchemy, SciPy, Pydantic etc.          |
+| Javascript          | Beginner     | solutions improvement, MOA scripting and usage                                  |
+| SQL                 | Intermediate | querying, data analysis, local database administration                          |
+| KQL                 | Intermediate | querying, data analysis                                                         |
+| Prompt engineering  | Advanced     | Ollama, Azure OpenAI SDK, Google GenAI SDK                                      |
+| Agentic AI          | Intermediate | Langchain, Langsmith                                                            |
+| Kubernetes          | Intermediate | Microk8s, K3s, Helm charts, administrator, FIREMAN and SUCCESS6G projects       |
+| Docker              | Intermediate | dockerization of multiple solutions                                             |
+| Data Analysis       | Advanced     | EDA, Statistical Analysis, Data Modeling                                        |
+| Data Mining         | Intermediate | ETL                                                                             |
+| Machine Learning    | Advanced     | Predictive Modeling, GBM, Markov chains, Hidden Markov Models, etc.             |
+| Deep Learning       | Intermediate | GAN, GAIN, transformers, PyTorch                                                |
+| Cloud               | Intermediate | AWS, Azure, GCP, Cloud Computing, Distributed computing                         |
+| Linux               | Intermediate | Bash, scripting, lightweight solutions                                          |
+| Networking          | Intermediate | design, implementation, troubleshooting                                         |
+| etc.                |              |                                                                                 |
 
 ## Languages
 
-* **Spanish** - bilingual
-* **English** - bilingual
-* **Czech** - bilingual
+* **Spanish** - C1/C2
+* **English** - C1/C2
+* **Czech** - C1/C2
 * **Slovak** - native
 
 ## Work Experience
 
 * **Cybersecurity Data Analyst**, freelancer, hybrid, Forescout - NL (17/09/2024 - 31/12/2025)
   * **description**: analysis and classification of data from diverse security tools and systems; pattern, anomaly, and potential security threats detection; prompt engineering and Agentic AI solutions to enhance classification results; research and application of machine learning methods to enhance and enrich solution outputs
-  * **keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation
-  * **technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github
+  * **keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
+  * **technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github, RAG
 
 * **Data scientist**, full-time, onsite, CTTC - ES (23/11/2020 - 30/09/2024)
   * **description**: design and analysis of machine learning approaches for pattern and anomaly detection in both real-world and synthetic data
-  * **keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G
-  * **technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, sklearn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL
+  * **keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
+  * **technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
 
 * **Python developer**, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)
   * **description**: design, analysis and implementation of machine learning approaches for prediction of customer lifetime value in mobile apps and in-app purchase recommendation system
-  * **keywords**: data analysis, data science, machine learning, deep learning, recommendation system, In-App-Purchases, mobile phones, Predicted Lifetime Value (pLTV), programming, statistics
-  * **technologies**: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&Biases, H20, DBSCAN, OPTICS, sklearn, pytorch, MLflow, Github
+  * **keywords**: data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
+  * **technologies**: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&Biases, H20, DBSCAN, OPTICS, Scikit-learn, pytorch, MLflow, Github
 
 * **Python developer**, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)
   * **description**: design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI
