@@ -76,7 +76,7 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
   * **keywords**: stream-based machine learning, supervised machine learning, unsupervised machine learning, MAWI, Cloud latency, network performance analysis, anomaly detection, big data
   * **technologies**: Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch, Python
 
-* **Network engineer**, full-time, onsite, CZ and SK (01/08/2007 - 20/11/2018)
+* **Network engineer**, full-time, onsite, CZ and SK (01/08/2007 - 01/03/2018)
   * positions in descending order:
     * Network Engineer (VSHosting, Prague, CZ)
     * Network Consulting Engineer (Verizon, Prague, CZ)
@@ -101,12 +101,12 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
 
 * [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/), [github](https://5uperpalo.github.io/success6g-edge/), Co-investigator, CTTC - ES (2020-2024)
 * [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/), [github](https://github.com/5uperpalo/FIREMAN-project), Co-investigator, CTTC - ES (2020-2024)
-* **Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools**, Principal investigator, FEE, CTU, Prague - CZ (2018)
-* **Privacy Protection and Machine Learning Utilization of IoT Data in Cloud**, Principal investigator, FEE, CTU, Prague - CZ (2017)
-* **Cloud Performance Analysis and Improvement**, Principal investigator, FEE, CTU, Prague - CZ (2016)
-* **Smart-home IoT and Cloud Telemetry Datamining**, Principal investigator, FEE, CTU, Prague - CZ (2015)
-* **Metrics for Automated Detection of Cloud Anomalous Behavior**, Principal investigator, Cisco Systems - CZ (2014)
-* **Methods Enhancing Work with Cloud Data**, Principal investigator, FEE, CTU, Prague - CZ (2013)
+* **Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools**, Principal investigator, FEE, CTU, Prague - CZ (2019)
+* **Privacy Protection and Machine Learning Utilization of IoT Data in Cloud**, Principal investigator, FEE, CTU, Prague - CZ (2018)
+* **Smart-home IoT and Cloud Telemetry Datamining**, Principal investigator, FEE, CTU, Prague - CZ (2017)
+* **Cloud Performance Analysis and Improvement**, Principal investigator, FEE, CTU, Prague - CZ (2015 - 2016)
+* **Methods Enhancing Work with Cloud Data**, Principal investigator, FEE, CTU, Prague - CZ (2014)
+* **Metrics for Automated Detection of Cloud Anomalous Behavior**, Principal investigator, Cisco Systems - CZ (2013)
 
 ### Open Source
 
