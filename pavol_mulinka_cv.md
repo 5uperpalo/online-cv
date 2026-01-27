@@ -46,20 +46,20 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
   * **keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
   * **technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
 
-* **Python developer**, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)
+* **Data scientist**, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)
   * **description**: design, analysis and implementation of machine learning approaches for prediction of customer lifetime value in mobile apps and in-app purchase recommendation system
   * **keywords**: data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
   * **technologies**: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&Biases, H20, DBSCAN, OPTICS, Scikit-learn, pytorch, MLflow, Github
-
-* **Python developer**, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)
-  * **description**: design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI
-  * **keywords**: containerization, in-memory database, web, multi-processing, unit testing,procedural programming, object oriented programming, code refactorization
-  * **technologies**: Docker, Redis, Flask, Celery, Python, Github
 
 * **F5 loadbalancer specialist**, freelancer, remote, Oksystems - CZ (01/12/2021 - 01/10/2022)
   * **description**: migration of existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project
   * **keywords**: migration, scripting, loadbalancer, firewall
   * **technologies**: F5, XML, bash, Postman
+
+* **Python developer**, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)
+  * **description**: design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI
+  * **keywords**: containerization, in-memory database, web, multi-processing, unit testing,procedural programming, object oriented programming, code refactorization
+  * **technologies**: Docker, Redis, Flask, Celery, Python, Github
 
 * **Data Scientist**, contract, onsite, NII Tokyo - JP (08/03/2019 - 03/09/2019)
   * **description**: application of the unsupervised machine learning approaches to network traces; generalization and improvement of the hierarchical density-based clustering approach to netwrok measurements interpretation; refactoring of code running in distributed computational environment
