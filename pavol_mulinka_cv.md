@@ -41,7 +41,7 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
   * **keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
   * **technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github, RAG
 
-* **Data scientist**, full-time, onsite, CTTC - ES (23/11/2020 - 30/09/2024)
+* **Data scientist**, full-time, onsite, CTTC - ES (01/02/2020 - 30/09/2024)
   * **description**: design and analysis of machine learning approaches for pattern and anomaly detection in both real-world and synthetic data
   * **keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
   * **technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
