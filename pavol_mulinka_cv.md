@@ -4,7 +4,7 @@
 
 ## Summary
 
-I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI developer, and former network engineer. I focus on applied science and open source solutions.
+I am a Data Scientist with 7+ years of experience in AI/ML design and implementation. I specialize in agentic AI systems and data-driven design patterns. I lead cross-functional technical design discussions and have published research in telecommunications, NLP, and ML.
 
 ## Skills
 
@@ -30,51 +30,51 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
 ## Languages
 
 * **Spanish** - C1/C2
-* **English** - C1/C2
-* **Czech** - C1/C2
+* **English** - C2
+* **Czech** - C2
 * **Slovak** - native
 
 ## Work Experience
 
 * **Cybersecurity Data Analyst**, freelancer, hybrid, Forescout - NL (17/09/2024 - 31/12/2025)
-  * **description**: analysis and classification of data from diverse security tools and systems; pattern, anomaly, and potential security threats detection; prompt engineering and Agentic AI solutions to enhance classification results; research and application of machine learning methods to enhance and enrich solution outputs
-  * **keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
-  * **technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github, RAG
+  * **Description:** Analyzed and classified data from diverse security tools and systems; identified patterns, anomalies, and potential security threats; applied Agentic AI and prompt engineering solutions to improve classification accuracy and automatize Data Analyst tasks. Developed and implemented automated impact analysis of core solutions modifications.
+  * **Keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
+  * **Technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github, RAG
 
 * **Data scientist**, full-time, onsite, CTTC - ES (01/02/2020 - 30/09/2024)
-  * **description**: design and analysis of machine learning approaches for pattern and anomaly detection in both real-world and synthetic data
-  * **keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
-  * **technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
+  * **Description:** Designed and analyzed machine learning approaches for pattern and anomaly detection in real-world and synthetic datasets. Led projects with a focus on distributed computing and large-scale data analysis.
+  * **Keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
+  * **Technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
 
 * **Data scientist**, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)
-  * **description**: design, analysis and implementation of machine learning approaches for prediction of customer lifetime value in mobile apps and in-app purchase recommendation system
-  * **keywords**: data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
-  * **technologies**: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&Biases, H20, DBSCAN, OPTICS, Scikit-learn, pytorch, MLflow, Github
+  * **Description:** Designed, analyzed, and implemented machine learning models for predicting customer lifetime value in mobile apps and in-app purchase recommendations. Enhanced data processing and feature engineering for models to improve conversion rates and personalization.
+  * **Keywords**: data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
+  * **Technologies**: Python, Athena, SQL, AWS, LLM, Huggingface, Transformers, GBM, Weights&Biases, H20, DBSCAN, OPTICS, Scikit-learn, pytorch, MLflow, Github
 
 * **F5 loadbalancer specialist**, freelancer, remote, Oksystems - CZ (01/12/2021 - 01/10/2022)
-  * **description**: migration of existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of agriculture project
+  * **Description:** Migrated an existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of Agriculture project.
   * **keywords**: migration, scripting, loadbalancer, firewall
   * **technologies**: F5, XML, bash, Postman
 
 * **Python developer**, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)
-  * **description**: design and development of communication interface between Slovak Electricity Hydro optimization model and user GUI
-  * **keywords**: containerization, in-memory database, web, multi-processing, unit testing,procedural programming, object oriented programming, code refactorization
-  * **technologies**: Docker, Redis, Flask, Celery, Python, Github
+  * **Description:** Designed and developed a communication interface between the Slovak Electricity Hydro optimization model and a user GUI.  
+  * **Keywords**: containerization, in-memory database, web, multi-processing, unit testing,procedural programming, object oriented programming, code refactorization
+  * **Technologies**: Docker, Redis, Flask, Celery, Python, Github
 
 * **Data Scientist**, contract, onsite, NII Tokyo - JP (08/03/2019 - 03/09/2019)
-  * **description**: application of the unsupervised machine learning approaches to network traces; generalization and improvement of the hierarchical density-based clustering approach to netwrok measurements interpretation; refactoring of code running in distributed computational environment
-  * **keywords**: MAWI, Darknet, anomaly detection, big data, machine learning, deep learning
-  * **technologies**: PySpark, Python
+  * **Description:** Applied unsupervised machine learning to network traces to detect and interpret unknown patterns. Improved hierarchical density-based clustering for better network measurement interpretation. Refactored code for distributed computational environments.  
+  * **Keywords**: MAWI, Darknet, anomaly detection, big data, machine learning, deep learning
+  * **Technologies**: PySpark, Python
 
 * **Data Scientist**, contract, onsite, O2 Telefonica - ES (21/11/2018 - 20/02/2019)
-  * **description**: analysis of the relations between socioeconomic status of customers and network performance and investigation of potential discrimination in network deployment and management; correlating public database information and operator measurements by Geographic Information System in distributed computing environment
-  * **keywords**: Lower-layer Super Output Areas (LSOA), data analysis, machine learning, geospatial machine learning
-  * **technologies**: QGIS, ArcGIS, GeoPandas, PySpark, Python
+  * **Description:** Analyzed relationships between socioeconomic status and network performance. Investigated potential discrimination in network deployment. Correlated public data with network measurements through geospatial analysis.  
+  * **Keywords**: Lower-layer Super Output Areas (LSOA), data analysis, machine learning, geospatial machine learning
+  * **Technologies**: QGIS, ArcGIS, GeoPandas, PySpark, Python
 
 * **Data Scientist**, contract, onsite, AIT Vienna - AT (01/03/2018 - 31/08/2018)
-  * **description**: cybersecurity and network performance analysis; anomaly detection and diagnosis; application of machine learning techniques on network measurement datasets; integration of machine learning approaches into big data analytics platforms [BIG-DAMA project](https://bigdama.ait.ac.at/)
-  * **keywords**: stream-based machine learning, supervised machine learning, unsupervised machine learning, MAWI, Cloud latency, network performance analysis, anomaly detection, big data
-  * **technologies**: Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch, Python
+  * **Description:** Conducted cybersecurity and network performance analysis. Developed anomaly detection and diagnosis systems. Integrated machine learning techniques into big data platforms, [BIG-DAMA project](https://bigdama.ait.ac.at/).
+  * **Keywords**: stream-based machine learning, supervised machine learning, unsupervised machine learning, MAWI, Cloud latency, network performance analysis, anomaly detection, big data
+  * **Technologies**: Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch, Python
 
 * **Network engineer**, full-time, onsite, CZ and SK (01/08/2007 - 01/03/2018)
   * positions in descending order:
@@ -84,9 +84,9 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
     * HP Radia Specialist (Soitron, Bratislava, SK)
     * HP Monitoring Support Specialist (Soitron, Bratislava, SK)
     * IT VoIP support specialist (Soitron, Bratislava, SK)
-  * **description**: design, delivery, documentation, troubleshooting and support of Networks
-  * **keywords**: networking, voip, wireless, vpn, security, firewall, design, troubleshooting, implementation
-  * **technologies**: bash, IOS
+  * **Description:** Designed, implemented, supported, and documented network infrastructures, with a strong focus on security, troubleshooting, and performance.  
+  * **Keywords**: networking, voip, wireless, vpn, security, firewall, design, troubleshooting, implementation
+  * **Technologies**: bash, IOS
 
 ## Teaching Experience
 
@@ -100,30 +100,42 @@ I am a Machine learning engineer, Data Scientist, Python programmer, agentic AI 
 ### Research
 
 * [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/), [github](https://5uperpalo.github.io/success6g-edge/), Co-investigator, CTTC - ES (2020-2024)
+  * **Description:** Researched and developed secure and efficient real-time vehicle condition monitoring and fault provisioning systems for 6G networks using ML and IoT technologies in the context of vehicle-to-everything (V2X) communication.
 * [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/), [github](https://github.com/5uperpalo/FIREMAN-project), Co-investigator, CTTC - ES (2020-2024)
+  * **Description:** Designend, developed and implemented a novel big-data based framework that encompasses all steps from sensing and data acquisition to statistical analysis and operational decisions, to accurately identify, detect, forecast and prevent rare events in a industrial physical processes.
 * **Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools**, Principal investigator, FEE, CTU, Prague - CZ (2019)
+  * **Description:** Researched and implemented privacy-preserving data collection methods using cryptographic tools.
 * **Privacy Protection and Machine Learning Utilization of IoT Data in Cloud**, Principal investigator, FEE, CTU, Prague - CZ (2018)
+  * **Description:** Engineered cloud-based IoT data analysis pipelines with a focus on privacy and machine learning.
 * **Smart-home IoT and Cloud Telemetry Datamining**, Principal investigator, FEE, CTU, Prague - CZ (2017)
+  * **Description:** Developed data mining tools for smart-home IoT devices and cloud telemetry systems.
 * **Cloud Performance Analysis and Improvement**, Principal investigator, FEE, CTU, Prague - CZ (2015 - 2016)
+  * **Description:** Analyzed cloud performance metrics and proposed optimization strategies for cloud computing environments.
 * **Methods Enhancing Work with Cloud Data**, Principal investigator, FEE, CTU, Prague - CZ (2014)
+  * **Description:** Designed methodologies for managing and analyzing cloud datasets efficiently.
 * **Metrics for Automated Detection of Cloud Anomalous Behavior**, Principal investigator, Cisco Systems - CZ (2013)
+  * **Description:** Developed automated metrics and detection systems for identifying anomalies in cloud environments.
 
 ### Open Source
 
 * **pytorch-widedeep**, Collaborator (2021-2024)
   * **main collaborations**: [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77), [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62), [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
+  * **Description:** Implemented methods and loss functions for imbalanced dataset processing.
 * **Wikimedia Scoring platform team**, External collaborator (2020-2021)
   * **main collaborations under** [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/): [Compress Gensim models](https://phabricator.wikimedia.org/T111179), [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8), [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697), [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall), [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+), [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
+  * **Description:** Led research and implementation efforts for CJK language tokenization. Developed comprehensive benchmarks comparing state-of-the-art segmenter. Contributed to model compression strategies for Gensim utilities.
 
 ## Education
 
 * **PhD**, Telecommunications, Faculty of Electrical Engineering, Czech Technical University, Prague - CZ (2013 - 2021)
-  * **thesis**: "Hierarchical density-based clustering and interpretation for network measurements"
-    * detect and interpret unknown patterns in passive/active network/Cloud measurements by hierarchical density-based unsupervised machine learning techniques
+  * **Thesis**: "Hierarchical density-based clustering and interpretation for network measurements"
+  * **Description:** Developed hierarchical density-based clustering machine learning pipelines for analyzing network data and detecting unknown patterns.  
 * **MSc**, Telecommunications, Faculty of electrical engineering,  Slovak University of Technology, Bratislava - SK (2007 - 2009)  
-  * **thesis**: "Classificators for identification of the speaker"
+  * **Thesis**: "Classificators for identification of the speaker"
+  * **Description:** Designed and implemented speaker classification models using machine learning techniques.
 * **Bc**, Telecommunications, Faculty of electrical engineering,  Slovak University of Technology, Bratislava - SK (2004 - 2007)
-  * **thesis**: "Measurement of glottal period of human voice"
+  * **Thesis**: "Measurement of glottal period of human voice"
+  * **Description:** Conducted detailed research on measuring and identifying the glottal period for voice signal analysis.
 
 ## Courses and certifications
 
