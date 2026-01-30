@@ -41,11 +41,6 @@ I am a Data Scientist with 7+ years of experience in AI/ML design and implementa
   * **Keywords**: applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
   * **Technologies**: Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, Javascript, Grafana, Github, RAG
 
-* **Data scientist**, full-time, onsite, CTTC - ES (01/02/2020 - 30/09/2024)
-  * **Description:** Designed and analyzed machine learning approaches for pattern and anomaly detection in real-world and synthetic datasets. Led projects with a focus on distributed computing and large-scale data analysis.
-  * **Keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
-  * **Technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
-
 * **Data scientist**, freelancer, hybrid, Assetario - SK (01/03/2021 - 26/01/2024)
   * **Description:** Designed, analyzed, and implemented machine learning models for predicting customer lifetime value in mobile apps and in-app purchase recommendations. Enhanced data processing and feature engineering for models to improve conversion rates and personalization.
   * **Keywords**: data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
@@ -55,6 +50,11 @@ I am a Data Scientist with 7+ years of experience in AI/ML design and implementa
   * **Description:** Migrated an existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of Agriculture project.
   * **keywords**: migration, scripting, loadbalancer, firewall
   * **technologies**: F5, XML, bash, Postman
+
+* **Data scientist**, full-time, onsite, CTTC - ES (01/02/2020 - 30/09/2024)
+  * **Description:** Designed and analyzed machine learning approaches for pattern and anomaly detection in real-world and synthetic datasets. Led projects with a focus on distributed computing and large-scale data analysis.
+  * **Keywords**: research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
+  * **Technologies**: Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H20, YOLO, Transformers, GBM, LLM, Huggingface, Weights&Biases, DBSCAN, OPTICS, Scikit-learn, pytorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, Minio, Kserve, Knative, MLflow, Github, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-Jupyterhub, MySQL, RAG
 
 * **Python developer**, freelancer, remote, Slovak power plants - SK (01/06/2020 - 01/10/2020)
   * **Description:** Designed and developed a communication interface between the Slovak Electricity Hydro optimization model and a user GUI.  
