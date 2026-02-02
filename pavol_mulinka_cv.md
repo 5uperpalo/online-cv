@@ -48,8 +48,8 @@ I am a Data Scientist with 7+ years of experience in AI/ML design and implementa
 
 * **F5 loadbalancer specialist**, freelancer, remote, Oksystems - CZ (01/12/2021 - 01/10/2022)
   * **Description:** Migrated an existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of Agriculture project.
-  * **keywords**: migration, scripting, loadbalancer, firewall
-  * **technologies**: F5, XML, bash, Postman
+  * **Keywords**: migration, scripting, loadbalancer, firewall
+  * **Technologies**: F5, XML, bash, Postman
 
 * **Data scientist**, full-time, onsite, CTTC - ES (01/02/2020 - 30/09/2024)
   * **Description:** Designed and analyzed machine learning approaches for pattern and anomaly detection in real-world and synthetic datasets. Led projects with a focus on distributed computing and large-scale data analysis.
@@ -86,7 +86,7 @@ I am a Data Scientist with 7+ years of experience in AI/ML design and implementa
     * IT VoIP support specialist (Soitron, Bratislava, SK)
   * **Description:** Designed, implemented, supported, and documented network infrastructures, with a strong focus on security, troubleshooting, and performance.  
   * **Keywords**: networking, voip, wireless, vpn, security, firewall, design, troubleshooting, implementation
-  * **Technologies**: bash, IOS
+  * **Technologies**: Bash, IOS
 
 ## Teaching Experience
 
@@ -119,10 +119,10 @@ I am a Data Scientist with 7+ years of experience in AI/ML design and implementa
 ### Open Source
 
 * **pytorch-widedeep**, Collaborator (2021-2024)
-  * **main collaborations**: [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77), [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62), [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
+  * **Main collaborations**: [Deep Imbalanced Regression](https://github.com/jrzaurin/pytorch-widedeep/pull/77), [New loss functions](https://github.com/jrzaurin/pytorch-widedeep/pull/62), [Custom Imbalanced DataLoader](https://github.com/jrzaurin/pytorch-widedeep/pull/42)
   * **Description:** Implemented methods and loss functions for imbalanced dataset processing.
 * **Wikimedia Scoring platform team**, External collaborator (2020-2021)
-  * **main collaborations under** [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/): [Compress Gensim models](https://phabricator.wikimedia.org/T111179), [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8), [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697), [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall), [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+), [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
+  * **Main collaborations under** [Pavol86](https://phabricator.wikimedia.org/p/Pavol86/): [Compress Gensim models](https://phabricator.wikimedia.org/T111179), [python-mwtext](https://github.com/mediawiki-utilities/python-mwtext/pull/8), [Tokenization of ”word” things for CJK](https://phabricator.wikimedia.org/T247523\#6200697), [deltas](https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall), [revscoring](https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+), [editquality](https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+)
   * **Description:** Led research and implementation efforts for CJK language tokenization. Developed comprehensive benchmarks comparing state-of-the-art segmenter. Contributed to model compression strategies for Gensim utilities.
 
 ## Education

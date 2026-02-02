@@ -135,21 +135,32 @@ class CVGenerator:
         
         return '. '.join(parts) + '.'
     
-    def generate_publications_section(self) -> str:
-        """Generate publications section from bibliography"""
+    def generate_publications_section(self, language: str = "en") -> str:
+        """Generate publications section from bibliography
+        
+        Args:
+            language: Language code ('en' for English, 'es' for Spanish)
+        """
         publications = self.parse_bibliography()
         
-        if not publications:
-            return "## Publications\n\nNo publications found.\n"
+        if language == "es":
+            section_header = "## Publicaciones"
+            no_pubs_msg = "No se encontraron publicaciones.\n"
+        else:
+            section_header = "## Publications"
+            no_pubs_msg = "No publications found.\n"
         
-        section = "## Publications\n\n"
+        if not publications:
+            return f"{section_header}\n\n{no_pubs_msg}"
+        
+        section = f"{section_header}\n\n"
         for pub in publications:
             section += "* " + self.format_publication(pub) + "\n"
         
         return section
     
     def regenerate_publications(self) -> str:
-        """Regenerate Publications section in the CV"""
+        """Regenerate Publications section in the CV (auto-detects language)"""
         if not self.cv_path.exists():
             raise FileNotFoundError(f"CV file not found: {self.cv_path}")
         
@@ -157,16 +168,26 @@ class CVGenerator:
         with open(self.cv_path, 'r', encoding='utf-8') as f:
             cv_content = f.read()
         
-        # Generate new publications section
-        publications_section = self.generate_publications_section()
+        # Detect language by checking which section header exists
+        pub_start_en = cv_content.find('## Publications')
+        pub_start_es = cv_content.find('## Publicaciones')
         
-        # Find and replace the publications section
-        pub_start = cv_content.find('## Publications')
-        if pub_start == -1:
-            raise ValueError("Publications section not found in CV")
+        if pub_start_en != -1:
+            language = "en"
+            section_header = "## Publications"
+            pub_start = pub_start_en
+        elif pub_start_es != -1:
+            language = "es"
+            section_header = "## Publicaciones"
+            pub_start = pub_start_es
+        else:
+            raise ValueError("Publications/Publicaciones section not found in CV")
+        
+        # Generate new publications section
+        publications_section = self.generate_publications_section(language=language)
         
         # Find the end of the publications section (next ## or ```)
-        remaining = cv_content[pub_start + len('## Publications'):]
+        remaining = cv_content[pub_start + len(section_header):]
         next_section = remaining.find('\n## ')
         next_code = remaining.find('\n```')
         
@@ -183,7 +204,7 @@ class CVGenerator:
         # Replace the publications section
         new_cv = (cv_content[:pub_start] + 
                  publications_section.rstrip() + '\n\n' + 
-                 cv_content[pub_start + len('## Publications') + end_pos:])
+                 cv_content[pub_start + len(section_header) + end_pos:])
         
         # Write updated CV
         with open(self.cv_path, 'w', encoding='utf-8') as f:

@@ -76,6 +76,40 @@
             font-size: 0.9em;
             line-height: 1.5;
         }
+        /* Language switcher - Toggle style */
+        .language-switcher {
+            position: fixed;
+            top: 20px;
+            right: 80px;
+            z-index: 1001;
+            display: inline-flex;
+            background-color: #3498db;
+            border: 2px solid #3498db;
+            border-radius: 25px;
+            padding: 2px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .lang-btn {
+            background-color: transparent;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+        .lang-btn.active {
+            background-color: white;
+            color: #3498db;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .lang-btn:not(.active):hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
         /* PDF Download icon */
         .pdf-download {
             position: fixed;
@@ -104,6 +138,13 @@
             height: 24px;
             fill: white;
         }
+        /* Language content */
+        .lang-content {
+            display: none;
+        }
+        .lang-content.active {
+            display: block;
+        }
         .footer {
             margin-top: 50px;
             padding-top: 20px;
@@ -117,21 +158,41 @@
                 max-width: 100%;
                 padding: 0;
             }
+            .language-switcher, .pdf-download {
+                display: none;
+            }
         }
         @media (max-width: 768px) {
             body {
                 padding: 10px;
             }
+            .language-switcher {
+                right: 10px;
+                top: 10px;
+            }
+            .lang-btn {
+                padding: 6px 16px;
+                font-size: 12px;
+            }
+            .pdf-download {
+                top: 70px;
+                right: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <a href="pavol_mulinka_cv.pdf" class="pdf-download" title="Download PDF version" download="pavol_mulinka_cv.pdf">
+    <div class="language-switcher">
+        <button class="lang-btn active" onclick="switchLanguage('en')" id="btn-en">EN</button>
+        <button class="lang-btn" onclick="switchLanguage('es')" id="btn-es">ES</button>
+    </div>
+    <a href="pavol_mulinka_cv.pdf" class="pdf-download" id="pdf-link" title="Download PDF version" download="pavol_mulinka_cv.pdf">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18M12,19L8,15H11V12H13V15H16L12,19Z"/>
         </svg>
     </a>
-    <h1>Pavol Mulinka</h1>
+    <div id="content-en" class="lang-content active">
+        <h1>Pavol Mulinka</h1>
 <p><strong>tel.num:</strong> +34 661816178 | <strong>address:</strong> Barcelona, Catalunya, Spain | <strong>email:</strong> <a href="mailto:mulinka.pavol@gmail.com">mulinka.pavol@gmail.com</a> | <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/mulinka/">https://www.linkedin.com/in/mulinka/</a> | <strong>Github:</strong> <a href="http://github.com/5uperpalo">http://github.com/5uperpalo</a> | <strong>Google scholar:</strong> <a href="https://scholar.google.com/citations?user=zsJ4nfoAAAAJ">https://scholar.google.com/citations?user=zsJ4nfoAAAAJ</a></p>
 <h2>Summary</h2>
 <p>I am a Data Scientist with 7+ years of experience in AI/ML design and implementation. I specialize in agentic AI systems and data-driven design patterns. I lead cross-functional technical design discussions and have published research in telecommunications, NLP, and ML.</p>
@@ -254,8 +315,8 @@
 <ul>
 <li><strong>F5 loadbalancer specialist</strong>, freelancer, remote, Oksystems - CZ (01/12/2021 - 01/10/2022)<ul>
 <li><strong>Description:</strong> Migrated an existing Apache XML firewall and loadbalancer solution to F5 loadbalancer for a Ministry of Agriculture project.</li>
-<li><strong>keywords</strong>: migration, scripting, loadbalancer, firewall</li>
-<li><strong>technologies</strong>: F5, XML, bash, Postman</li>
+<li><strong>Keywords</strong>: migration, scripting, loadbalancer, firewall</li>
+<li><strong>Technologies</strong>: F5, XML, bash, Postman</li>
 </ul>
 </li>
 </ul>
@@ -312,7 +373,7 @@
 </li>
 <li><strong>Description:</strong> Designed, implemented, supported, and documented network infrastructures, with a strong focus on security, troubleshooting, and performance.  </li>
 <li><strong>Keywords</strong>: networking, voip, wireless, vpn, security, firewall, design, troubleshooting, implementation</li>
-<li><strong>Technologies</strong>: bash, IOS</li>
+<li><strong>Technologies</strong>: Bash, IOS</li>
 </ul>
 </li>
 </ul>
@@ -362,12 +423,12 @@
 <h3>Open Source</h3>
 <ul>
 <li><strong>pytorch-widedeep</strong>, Collaborator (2021-2024)<ul>
-<li><strong>main collaborations</strong>: <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/77">Deep Imbalanced Regression</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/62">New loss functions</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/42">Custom Imbalanced DataLoader</a></li>
+<li><strong>Main collaborations</strong>: <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/77">Deep Imbalanced Regression</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/62">New loss functions</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/42">Custom Imbalanced DataLoader</a></li>
 <li><strong>Description:</strong> Implemented methods and loss functions for imbalanced dataset processing.</li>
 </ul>
 </li>
 <li><strong>Wikimedia Scoring platform team</strong>, External collaborator (2020-2021)<ul>
-<li><strong>main collaborations under</strong> <a href="https://phabricator.wikimedia.org/p/Pavol86/">Pavol86</a>: <a href="https://phabricator.wikimedia.org/T111179">Compress Gensim models</a>, <a href="https://github.com/mediawiki-utilities/python-mwtext/pull/8">python-mwtext</a>, <a href="https://phabricator.wikimedia.org/T247523#6200697">Tokenization of ”word” things for CJK</a>, <a href="https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall">deltas</a>, <a href="https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">revscoring</a>, <a href="https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">editquality</a></li>
+<li><strong>Main collaborations under</strong> <a href="https://phabricator.wikimedia.org/p/Pavol86/">Pavol86</a>: <a href="https://phabricator.wikimedia.org/T111179">Compress Gensim models</a>, <a href="https://github.com/mediawiki-utilities/python-mwtext/pull/8">python-mwtext</a>, <a href="https://phabricator.wikimedia.org/T247523#6200697">Tokenization of ”word” things for CJK</a>, <a href="https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall">deltas</a>, <a href="https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">revscoring</a>, <a href="https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">editquality</a></li>
 <li><strong>Description:</strong> Led research and implementation efforts for CJK language tokenization. Developed comprehensive benchmarks comparing state-of-the-art segmenter. Contributed to model compression strategies for Gensim utilities.</li>
 </ul>
 </li>
@@ -435,5 +496,360 @@
 </ul>
 <h2>Interests</h2>
 <p>climbing, bouldering, motorcycles, ceramics, pottery, hiking, nature</p>
+    </div>
+    <div id="content-es" class="lang-content">
+        <h1>Pavol Mulinka</h1>
+<p><strong>tel.:</strong> +34 661816178 | <strong>dirección:</strong> Barcelona, Catalunya, España | <strong>email:</strong> <a href="mailto:mulinka.pavol@gmail.com">mulinka.pavol@gmail.com</a> | <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mulinka/">https://www.linkedin.com/in/mulinka/</a> | <strong>GitHub:</strong> <a href="http://github.com/5uperpalo">http://github.com/5uperpalo</a> | <strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=zsJ4nfoAAAAJ">https://scholar.google.com/citations?user=zsJ4nfoAAAAJ</a></p>
+<h2>Resumen</h2>
+<p>Soy Data Scientist con más de 7 años de experiencia en el diseño e implementación de soluciones de IA/ML. Estoy especializado en sistemas de Agentic AI y en patrones de diseño basados en datos. Lidero discusiones técnicas de diseño con equipos multidisciplinares y he publicado investigación en telecomunicaciones, NLP y ML.</p>
+<h2>Habilidades</h2>
+<table>
+<thead>
+<tr>
+<th>nombre</th>
+<th>nivel</th>
+<th>notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>Avanzado</td>
+<td>Scikit-learn, Flask, FastAPI, Pandas, SQLAlchemy, SciPy, Pydantic, etc.</td>
+</tr>
+<tr>
+<td>JavaScript</td>
+<td>Básico</td>
+<td>mejora de soluciones, scripting y uso de MOA</td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>Intermedio</td>
+<td>consultas, análisis de datos, administración de bases de datos locales</td>
+</tr>
+<tr>
+<td>KQL</td>
+<td>Intermedio</td>
+<td>consultas, análisis de datos</td>
+</tr>
+<tr>
+<td>Prompt engineering</td>
+<td>Avanzado</td>
+<td>Ollama, Azure OpenAI SDK, Google GenAI SDK</td>
+</tr>
+<tr>
+<td>Agentic AI</td>
+<td>Intermedio</td>
+<td>Langchain, Langsmith</td>
+</tr>
+<tr>
+<td>Kubernetes</td>
+<td>Intermedio</td>
+<td>Microk8s, K3s, Helm charts, administración, proyectos FIREMAN y SUCCESS6G</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td>Intermedio</td>
+<td>dockerización de múltiples soluciones</td>
+</tr>
+<tr>
+<td>Data Analysis</td>
+<td>Avanzado</td>
+<td>EDA, análisis estadístico, modelado de datos</td>
+</tr>
+<tr>
+<td>Data Mining</td>
+<td>Intermedio</td>
+<td>ETL</td>
+</tr>
+<tr>
+<td>Machine Learning</td>
+<td>Avanzado</td>
+<td>modelado predictivo, GBM, cadenas de Markov, Hidden Markov Models, etc.</td>
+</tr>
+<tr>
+<td>Deep Learning</td>
+<td>Intermedio</td>
+<td>GAN, GAIN, transformers, PyTorch</td>
+</tr>
+<tr>
+<td>Cloud</td>
+<td>Intermedio</td>
+<td>AWS, Azure, GCP, cloud computing, computación distribuida</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Intermedio</td>
+<td>Bash, scripting, soluciones ligeras</td>
+</tr>
+<tr>
+<td>Networking</td>
+<td>Intermedio</td>
+<td>diseño, implementación, troubleshooting</td>
+</tr>
+<tr>
+<td>etc.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Idiomas</h2>
+<ul>
+<li><strong>Español</strong> – C1/C2</li>
+<li><strong>Inglés</strong> – C2</li>
+<li><strong>Checo</strong> – C2</li>
+<li><strong>Eslovaco</strong> – nativo</li>
+</ul>
+<h2>Experiencia laboral</h2>
+<ul>
+<li><strong>Cybersecurity Data Analyst</strong>, autónomo, híbrido, Forescout – NL (17/09/2024 – 31/12/2025)<ul>
+<li><strong>Descripción:</strong> Análisis y clasificación de datos procedentes de diversas herramientas y sistemas de seguridad; identificación de patrones, anomalías y potenciales amenazas de seguridad; aplicación de soluciones de Agentic AI y prompt engineering para mejorar la precisión de la clasificación y automatizar tareas del Data Analyst. Desarrollo e implementación de análisis de impacto automatizados de modificaciones en soluciones core.</li>
+<li><strong>Palabras clave:</strong> applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile</li>
+<li><strong>Tecnologías:</strong> Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, JavaScript, Grafana, GitHub, RAG</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, autónomo, híbrido, Assetario – SK (01/03/2021 – 26/01/2024)<ul>
+<li><strong>Descripción:</strong> Diseño, análisis e implementación de modelos de machine learning para la predicción del customer lifetime value en aplicaciones móviles y recomendaciones de in-app purchases. Mejora del procesamiento de datos y feature engineering para aumentar las tasas de conversión y la personalización.</li>
+<li><strong>Palabras clave:</strong> data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile</li>
+<li><strong>Tecnologías:</strong> Python, Athena, SQL, AWS, LLM, Hugging Face, Transformers, GBM, Weights &amp; Biases, H2O, DBSCAN, OPTICS, Scikit-learn, PyTorch, MLflow, GitHub</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>F5 Load Balancer Specialist</strong>, autónomo, remoto, Oksystems – CZ (01/12/2021 – 01/10/2022)<ul>
+<li><strong>Descripción:</strong> Migración de una solución existente de Apache XML firewall y load balancer a F5 para un proyecto del Ministerio de Agricultura.</li>
+<li><strong>Palabras clave:</strong> migration, scripting, load balancer, firewall</li>
+<li><strong>Tecnologías:</strong> F5, XML, Bash, Postman</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, jornada completa, presencial, CTTC – ES (01/02/2020 – 30/09/2024)<ul>
+<li><strong>Descripción:</strong> Diseño y análisis de enfoques de machine learning para la detección de patrones y anomalías en datasets reales y sintéticos. Liderazgo de proyectos con foco en computación distribuida y análisis de datos a gran escala.</li>
+<li><strong>Palabras clave:</strong> research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving</li>
+<li><strong>Tecnologías:</strong> Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H2O, YOLO, Transformers, GBM, LLM, Hugging Face, Weights &amp; Biases, DBSCAN, OPTICS, Scikit-learn, PyTorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, MinIO, KServe, Knative, MLflow, GitHub, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-JupyterHub, MySQL, RAG</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Python Developer</strong>, autónomo, remoto, Centrales Eléctricas Eslovacas – SK (01/06/2020 – 01/10/2020)<ul>
+<li><strong>Descripción:</strong> Diseño y desarrollo de una interfaz de comunicación entre el modelo de optimización hidroeléctrica de Slovak Electricity y una GUI de usuario.</li>
+<li><strong>Palabras clave:</strong> containerization, in-memory database, web, multiprocessing, unit testing, programación procedural, programación orientada a objetos, refactorización de código</li>
+<li><strong>Tecnologías:</strong> Docker, Redis, Flask, Celery, Python, GitHub</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contrato, presencial, NII Tokyo – JP (08/03/2019 – 03/09/2019)<ul>
+<li><strong>Descripción:</strong> Aplicación de machine learning no supervisado sobre trazas de red para detectar e interpretar patrones desconocidos. Mejora de clustering jerárquico basado en densidad para una mejor interpretación de medidas de red. Refactorización de código para entornos de computación distribuida.</li>
+<li><strong>Palabras clave:</strong> MAWI, Darknet, anomaly detection, big data, machine learning, deep learning</li>
+<li><strong>Tecnologías:</strong> PySpark, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contrato, presencial, O2 Telefónica – ES (21/11/2018 – 20/02/2019)<ul>
+<li><strong>Descripción:</strong> Análisis de la relación entre el nivel socioeconómico y el rendimiento de red. Investigación de posibles discriminaciones en el despliegue de red. Correlación de datos públicos con mediciones de red mediante análisis geoespacial.</li>
+<li><strong>Palabras clave:</strong> Lower-layer Super Output Areas (LSOA), data analysis, machine learning, geospatial machine learning</li>
+<li><strong>Tecnologías:</strong> QGIS, ArcGIS, GeoPandas, PySpark, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Data Scientist</strong>, contrato, presencial, AIT Vienna – AT (01/03/2018 – 31/08/2018)<ul>
+<li><strong>Descripción:</strong> Análisis de ciberseguridad y rendimiento de red. Desarrollo de sistemas de detección y diagnóstico de anomalías. Integración de técnicas de machine learning en plataformas de big data, proyecto <a href="https://bigdama.ait.ac.at/">BIG-DAMA project</a>.</li>
+<li><strong>Palabras clave:</strong> stream-based machine learning, supervised machine learning, unsupervised machine learning, MAWI, Cloud latency, network performance analysis, anomaly detection, big data</li>
+<li><strong>Tecnologías:</strong> Cloudera, PySpark, Apache Pig, Hive, Kafka, Elasticsearch, Python</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Network Engineer</strong>, jornada completa, presencial, CZ y SK (01/08/2007 – 01/03/2018)<ul>
+<li><strong>Puestos (en orden descendente):</strong><ul>
+<li>Network Engineer (VSHosting, Praga, CZ)</li>
+<li>Network Consulting Engineer (Verizon, Praga, CZ)</li>
+<li>Senior System Engineer (AT&amp;T, Bratislava, SK)</li>
+<li>HP Radia Specialist (Soitron, Bratislava, SK)</li>
+<li>HP Monitoring Support Specialist (Soitron, Bratislava, SK)</li>
+<li>IT VoIP Support Specialist (Soitron, Bratislava, SK)</li>
+</ul>
+</li>
+<li><strong>Descripción:</strong> Diseño, implementación, soporte y documentación de infraestructuras de red, con un fuerte enfoque en seguridad, troubleshooting y rendimiento.</li>
+<li><strong>Palabras clave:</strong> networking, VoIP, wireless, VPN, security, firewall, design, troubleshooting, implementation</li>
+<li><strong>Tecnologías:</strong> Bash, IOS</li>
+</ul>
+</li>
+</ul>
+<h2>Experiencia docente</h2>
+<ul>
+<li><strong>Mentor de “Sakura Science Plan”</strong>, NII, Tokio – JP (2019)</li>
+<li><strong>Asistente de profesor de “Network Operating Systems”</strong>, FEE, CTU, Praga – CZ (invierno 2015, 2016)</li>
+<li><strong>Asistente de profesor de “Digital Engineering”</strong>, FEE, CTU, Praga – CZ (invierno 2014)</li>
+<li><strong>Asistente de profesor de “Communication Processes Control”</strong>, FEE, CTU, Praga – CZ (verano 2014 y 2015)</li>
+</ul>
+<h2>Proyectos</h2>
+<h3>Investigación</h3>
+<ul>
+<li><a href="https://success-6g-project.cttc.es/">SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G</a>, <a href="https://5uperpalo.github.io/success6g-edge/">github</a>, Co-investigador, CTTC – ES (2020–2024)<ul>
+<li><strong>Descripción:</strong> Investigación y desarrollo de sistemas seguros y eficientes de monitorización en tiempo real del estado de vehículos y provisión de fallos para redes 6G usando ML e IoT en el contexto de V2X.</li>
+</ul>
+</li>
+<li><a href="https://fireman-project.eu/">FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)</a>, <a href="https://github.com/5uperpalo/FIREMAN-project">github</a>, Co-investigador, CTTC – ES (2020–2024)<ul>
+<li><strong>Descripción:</strong> Diseño, desarrollo e implementación de un framework basado en big data que cubre todas las fases desde la sensorización y adquisición de datos hasta el análisis estadístico y la toma de decisiones operativas, para identificar, detectar, predecir y prevenir eventos raros en procesos físicos industriales.</li>
+</ul>
+</li>
+<li><strong>Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools</strong>, Investigador principal, FEE, CTU, Praga – CZ (2019)<ul>
+<li><strong>Descripción:</strong> Investigación e implementación de métodos de recogida de datos con preservación de la privacidad mediante herramientas criptográficas.</li>
+</ul>
+</li>
+<li><strong>Privacy Protection and Machine Learning Utilization of IoT Data in Cloud</strong>, Investigador principal, FEE, CTU, Praga – CZ (2018)<ul>
+<li><strong>Descripción:</strong> Ingeniería de pipelines de análisis de datos IoT en la nube con foco en privacidad y machine learning.</li>
+</ul>
+</li>
+<li><strong>Smart-home IoT and Cloud Telemetry Datamining</strong>, Investigador principal, FEE, CTU, Praga – CZ (2017)<ul>
+<li><strong>Descripción:</strong> Desarrollo de herramientas de data mining para dispositivos IoT de smart home y sistemas de telemetría en la nube.</li>
+</ul>
+</li>
+<li><strong>Cloud Performance Analysis and Improvement</strong>, Investigador principal, FEE, CTU, Praga – CZ (2015–2016)<ul>
+<li><strong>Descripción:</strong> Análisis de métricas de rendimiento en la nube y propuesta de estrategias de optimización para entornos de cloud computing.</li>
+</ul>
+</li>
+<li><strong>Methods Enhancing Work with Cloud Data</strong>, Investigador principal, FEE, CTU, Praga – CZ (2014)<ul>
+<li><strong>Descripción:</strong> Diseño de metodologías para la gestión y el análisis eficiente de datasets en la nube.</li>
+</ul>
+</li>
+<li><strong>Metrics for Automated Detection of Cloud Anomalous Behavior</strong>, Investigador principal, Cisco Systems – CZ (2013)<ul>
+<li><strong>Descripción:</strong> Desarrollo de métricas y sistemas de detección automatizados para identificar anomalías en entornos cloud.</li>
+</ul>
+</li>
+</ul>
+<h3>Open Source</h3>
+<ul>
+<li><strong>pytorch-widedeep</strong>, Colaborador (2021–2024)<ul>
+<li><strong>Principales contribuciones:</strong> <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/77">Deep Imbalanced Regression</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/62">New loss functions</a>, <a href="https://github.com/jrzaurin/pytorch-widedeep/pull/42">Custom Imbalanced DataLoader</a></li>
+<li><strong>Descripción:</strong> Implementación de métodos y funciones de pérdida para el procesamiento de datasets desbalanceados.</li>
+</ul>
+</li>
+<li><strong>Wikimedia Scoring Platform Team</strong>, Colaborador externo (2020–2021)<ul>
+<li><strong>Principales contribuciones:</strong> <a href="https://phabricator.wikimedia.org/p/Pavol86/">Pavol86</a>: <a href="https://phabricator.wikimedia.org/T111179">Compress Gensim models</a>, <a href="https://github.com/mediawiki-utilities/python-mwtext/pull/8">python-mwtext</a>, <a href="https://phabricator.wikimedia.org/T247523#6200697">Tokenization of ”word” things for CJK</a>, <a href="https://github.com/halfak/deltas/issues?q=assignee\%3A5uperpalo+is\%3Aall">deltas</a>, <a href="https://github.com/wikimedia/revscoring/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">revscoring</a>, <a href="https://github.com/wikimedia/editquality/pulls?q=assignee\%3A5uperpalo+is\%3Aall+">editquality</a></li>
+<li><strong>Descripción:</strong> Lideré investigación e implementación para tokenización de lenguas CJK. Desarrollo de benchmarks comparativos de segmentadores estado del arte y contribuciones a estrategias de compresión de modelos en Gensim.</li>
+</ul>
+</li>
+</ul>
+<h2>Educación</h2>
+<ul>
+<li><strong>PhD en Telecomunicaciones</strong>, Facultad de Ingeniería Eléctrica, Czech Technical University, Praga – CZ (2013–2021)<ul>
+<li><strong>Tesis:</strong> “Hierarchical density-based clustering and interpretation for network measurements”</li>
+<li><strong>Descripción:</strong> Desarrollo de pipelines de machine learning de clustering jerárquico basado en densidad para el análisis de datos de red y la detección de patrones desconocidos.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Máster (MSc) en Telecomunicaciones</strong>, Facultad de Ingeniería Eléctrica, Slovak University of Technology, Bratislava – SK (2007–2009)<ul>
+<li><strong>Tesis:</strong> “Classificators for identification of the speaker”</li>
+<li><strong>Descripción:</strong> Diseño e implementación de modelos de clasificación de locutor mediante técnicas de machine learning.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>Grado (Bc) en Telecomunicaciones</strong>, Facultad de Ingeniería Eléctrica, Slovak University of Technology, Bratislava – SK (2004–2007)<ul>
+<li><strong>Tesis:</strong> “Measurement of glottal period of human voice”</li>
+<li><strong>Descripción:</strong> Investigación detallada sobre la medición e identificación del período glotal para el análisis de señales de voz.</li>
+</ul>
+</li>
+</ul>
+<h2>Cursos y certificaciones</h2>
+<ul>
+<li><strong>Cisco Certified Network Associate (CCNA, 640-802)</strong>, (640-553) Implementing Cisco IOS Network Security, (640-460) Implementing Cisco IOS Unified Communications, (640-721) Implementing Cisco Unified Wireless Network Essentials</li>
+<li><strong>Cisco Certified Design Associate (CCDA)</strong>; (640-863) Designing for Cisco Internetwork Solutions</li>
+<li><strong>Cisco Certified Network Professional (CCNP)</strong>; (642-901) Building Scalable Cisco Internetworks, (642-812) Building Cisco Multilayer Switched Networks, (642-825) Implementing Secure Converged Wide Area Networks, (642-845) Optimizing Converged Cisco Networks</li>
+<li><strong>Cisco Certified Internetwork Professional (CCIP)</strong>; (642-642) Quality of Service, (642-611) Multiprotocol Label Switching, (642-661) Border Gateway Protocol</li>
+<li><strong>Cisco Certified Design Professional (CCDP)</strong>; (300-31)  Designing Cisco Network Service, (642-873) Designing Cisco Network Service Architectures</li>
+<li><strong>Conducting Cisco Unified Wireless Site Survey (CUWSS, 642-731)</strong></li>
+<li><strong>Implementing Cisco Edge Network Security Solutions (SENSS, 300-206)</strong></li>
+<li><strong>F5 Certified Product Consultant for LTM</strong>; F5-PCL, F50-531</li>
+<li><strong>F5 Certified Administrator</strong>; (101) Application Delivery Fundamentals, (201) TMOS Administration</li>
+<li><strong>Juniper Networks Certified Internet Associate EX (JNCIA-EX, JN0-400)</strong></li>
+<li><strong>Information Technology Infrastructure Library Foundation in IT Service Management (ITILv3, Foundation)</strong></li>
+<li><strong>The Open Group Architecture Framework (TOGAF 9)</strong></li>
+<li><strong>ArchiMate 3</strong></li>
+<li><strong>Permiso de conducir A+B</strong></li>
+<li><strong>Licencia de buceo OWD</strong></li>
+</ul>
+<h2 class="publications-header">Publicaciones</h2>
+<ul>
+<li>Pavol Mulinka and Christou, Ioannis T. and Subham Sahoo and Charalampos Kalalas and Nardell, Pedro H.J.. (Oct 2025). "Towards High-Fidelity and Trustworthy Digital Twins for Fault Diagnosis in Grid Connected Inverters". In: IEEE Transactions on Dependable and Secure Computing. doi: 10.1109/TDSC.2025.3626846.</li>
+<li>Pavlidis, Nikolaos and Perifanis, Vasileios and Yilmaz, Selim F. and Wilhelmi, Francesc and Miozzo, Marco and Efraimidis, Pavlos S. and Koutsiamanis, Remous-Aris and Mulinka, Pavol and Dini, Paolo. (May 2025). "Federated Learning in Mobile Networks: A Comprehensive Case Study on Traffic Forecasting". In: IEEE Transactions on Sustainable Computing. pp. 576-587. doi: 10.1109/TSUSC.2024.3504242.</li>
+<li>Charalampos Kalalas and Pavol Mulinka and Guillermo Candela Belmonte and Miguel Fornell and Michail Dalgitsis and Francisco Paredes Vera and Javier Santaella Sánchez and Carmen Vicente Villares and Roshan Sedar and Eftychia Datsika and Angelos Antonopoulos and Antonio Fernández Ojea and Miquel Payaro. (2025). "AI-Driven Vehicle Condition Monitoring with Cell-Aware Edge Service Migration". url: https://arxiv.org/abs/2506.02785.</li>
+<li>Zaurin, Javier Rodriguez and Mulinka, Pavol. (Jun 2023). "pytorch-widedeep: A flexible package for multimodal deep learning". In: Journal of Open Source Software. pp. 5027. doi: 10.21105/joss.05027. url: https://joss.theoj.org/papers/10.21105/joss.05027.</li>
+<li>Beattie, Alexander and Mulink, Pavol and Sahoo, Subham and Christou, Ioannis T. and Kalalas, Charalampos and Gutierrez-Rojas, Daniel and Nardelli, Pedro H. J.. (2022). "A Robust and Explainable Data-Driven Anomaly Detection Approach For Power Electronics". In: 2022 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm). pp. 296-301. doi: 10.1109/SmartGridComm52983.2022.9961002.</li>
+<li>Mulinka, Pavol and Sahoo, Subham and Kalalas, Charalampos and Nardelli, Pedro H. J.. (2022). "Optimizing a Digital Twin for Fault Diagnosis in Grid Connected Inverters - A Bayesian Approach". In: 2022 IEEE Energy Conversion Congress and Exposition (ECCE). pp. 1-6. doi: 10.1109/ECCE50734.2022.9947986.</li>
+<li>Park, Souneil and Mulinka, Pavol and Perino, Diego. (2022). "A Large-Scale Examination of ”Socioeconomic” Fairness in Mobile Networks". In: Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies. pp. 248–256. doi: 10.1145/3530190.3534809. url: https://doi.org/10.1145/3530190.3534809.</li>
+<li>Mulinka, Pavol and Kalalas, Charalampos and Dzaferagic, Merim and Macaluso, Irene and Rojas, Daniel Gutierrez and Nardelli, Pedro Juliano and Marchetti, Nicola. (2021). "Information processing and data visualization in networked industrial systems". In: 2021 IEEE 32nd Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC). pp. 1--6.</li>
+<li>Casas, Pedro and Mulinka, Pavol and Vanerio, Juan. (2021). "NetSEC at High-Speed: Distributed Stream Learning for Security in Big Networking Data". In: Data Science--Analytics and Applications. pp. 97--104.</li>
+<li>Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro. (2020). "Adaptive and Reinforcement Learning Approaches for Online Network Monitoring and Analysis". In: IEEE Transactions on Network and Service Management.</li>
+<li>Mulinka, Pavol and Casas, Pedro and Fukuda, Kensuke and Kencl, Lukas. (2020). "HUMAN - Hierarchical Clustering for Unsupervised Anomaly Detection &amp; Interpretation". In: 11th international Conferece on Network of the Future.</li>
+<li>Mulinka, Pavol and Fukuda, Kensuke and Casas, Pedro and Kencl, Lukas. (2020). "WhatsThat? On the Usage of Hierarchical Clustering for Unsupervised Detection &amp; Interpretation of Network Attacks". In: The 5th International Workshop on Traffic Measurements for Cybersecurity.</li>
+<li>Casas, Pedro and Mulinka, Pavol and Vanerio, Juan. (2019). "Should I (re)Learn or Should I Go(on)? Stream Machine Learning for Adaptive Defense against Network Attacks". In: The 6th ACM Workshop on Moving Target Defense (MTD 2019).</li>
+<li>Mulinka, Pavol and Casas, Pedro and Vanerio, Juan. (2019). "Continuous and Adaptive Learning over Big Streaming Data for Network Security". In: IEEE International Conference on Cloud Networking CLOUDNET, 2019 International Conference on.</li>
+<li>Wassermann, Sarah and Cuvelier, Thibaut and Mulinka, Pavol and Casas, Pedro. (2019). "ADAM &amp; RAL: Adaptive Memory Learning and Reinforcement Active Learning for Network Monitoring". In: 15th International Conference on Network and Service Management.</li>
+<li>Mulinka, Pavol and Wassermann, Sarah and Marín, Gonzalo and Casas, Pedro. (2018). "Remember the Good, Forget the Bad, do it Fast: Continuous Learning over Streaming Data". In: @NeurIPS 2018 Workshops, Workshop on Continual Learning.</li>
+<li>Mulinka, Pavol and Casas, Pedro and Kencl, Lukas. (2018). "Hi-Clust: Unsupervised Analysis of Cloud Latency Measurements through Hierarchical Clustering". In: IEEE International Conference on Cloud Networking CLOUDNET, 2018 International Conference on.</li>
+<li>Mulinka, Pavol and Casas, Pedro. (2018). "Stream-based Machine Learning for Network Security and Anomaly Detection". In: Proc. of the Workshop on Big Data Analytics and ML for Data Comm. Net., Big-DAMA@SIGCOMM.</li>
+<li>Mulinka, Pavol and Casas, Pedro. (2018). "Adaptive Network Security through Stream Machine Learning". In: Proceedings of the ACM SIGCOMM '18 Posters and Demos.</li>
+<li>Tomanek, Ondrej and Mulinka, Pavol and Kencl, Lukas. (2016). "Multidimensional cloud latency monitoring and evaluation". In: Computer Networks. pp. 104--120.</li>
+<li>Mulinka, Pavol and Kencl, Lukas. (2015). "Learning from Cloud latency measurements". In: Communication Workshop (ICCW), 2015 IEEE International Conference on. pp. 1895--1901.</li>
+<li>Kacur, Juraj and Vargic, Radoslav and Mulinka, Pavol. (2011). "Speaker identification by K-Nearest Neighbors: Application of PCA and LDA prior to KNN". In: Systems, Signals and Image Processing (IWSSIP), 2011 18th International Conference on. pp. 1--4.</li>
+</ul>
+<h2>Intereses</h2>
+<p>escalada, búlder, motos, cerámica, senderismo, naturaleza</p>
+    </div>
+    <script>
+        const pdfLinks = {
+            'en': 'pavol_mulinka_cv.pdf',
+            'es': 'pavol_mulinka_cv_es.pdf'
+        };
+        
+        const pdfDownloads = {
+            'en': 'pavol_mulinka_cv.pdf',
+            'es': 'pavol_mulinka_cv_es.pdf'
+        };
+        
+        function switchLanguage(lang) {
+            // Hide all content
+            document.querySelectorAll('.lang-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Show selected language content
+            document.getElementById('content-' + lang).classList.add('active');
+            
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById('btn-' + lang).classList.add('active');
+            
+            // Update PDF link
+            const pdfLink = document.getElementById('pdf-link');
+            pdfLink.href = pdfLinks[lang];
+            pdfLink.download = pdfDownloads[lang];
+            
+            // Update HTML lang attribute
+            document.documentElement.lang = lang;
+            
+            // Save preference to localStorage
+            localStorage.setItem('preferred-language', lang);
+        }
+        
+        // Load saved language preference on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferred-language') || 'en';
+            switchLanguage(savedLang);
+        });
+    </script>
 </body>
 </html>
