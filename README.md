@@ -67,6 +67,27 @@ You can specify a custom output path:
 python main.py --publish-web --web-output path/to/index.html
 ```
 
+### Bilingual Mode
+
+Generate an HTML version with a language switcher (e.g., English + Spanish):
+
+```bash
+python main.py --publish-web --bilingual
+```
+
+This will:
+- Combine both CV versions into a single HTML file with a language switcher
+- Use `--cv-file` (default: `cv.md`) for the primary language
+- Use `--cv-file-es` (default: `pavol_mulinka_cv_es.md`) for the second language
+- Include PDF download links for both languages when available (`pavol_mulinka_cv.pdf`, `pavol_mulinka_cv_es.pdf`)
+
+If the Spanish CV file is not found, the tool falls back to English-only mode.
+
+```bash
+# With custom CV file paths
+python main.py --publish-web --bilingual --cv-file my_cv_en.md --cv-file-es my_cv_es.md
+```
+
 ## Options
 
 ```bash
@@ -78,6 +99,8 @@ Options:
   --publish-web                 Generate HTML version for web publishing
   --web-output PATH             Output HTML file path (default: docs/index.html)
   --cv-file PATH                Path to CV markdown file (default: cv.md)
+  --cv-file-es PATH             Path to Spanish/second-language CV (default: pavol_mulinka_cv_es.md)
+  --bilingual                   Generate bilingual HTML with language switcher (use with --publish-web)
 ```
 
 ## GitHub Pages Deployment
@@ -98,6 +121,14 @@ python main.py --regenerate-publications --export-pdf
 
 # Generate web version
 python main.py --publish-web
+
+# Generate bilingual web version (English + Spanish)
+python main.py --publish-web --bilingual
+
+# Full bilingual workflow: export both PDFs, then publish bilingual web
+python main.py --export-pdf --cv-file pavol_mulinka_cv.md
+python main.py --export-pdf --cv-file pavol_mulinka_cv_es.md
+python main.py --publish-web --bilingual
 
 # All operations at once
 python main.py --regenerate-publications --export-pdf --publish-web

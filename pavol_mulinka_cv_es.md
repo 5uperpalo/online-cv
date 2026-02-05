@@ -41,17 +41,17 @@ Soy Data Scientist con más de 7 años de experiencia en el diseño e implementa
   * **Palabras clave:** applied research, data analysis, data science, machine learning, statistics, text processing, investigation, analytical thinking, collaboration, problem solving, proactivity, Agile
   * **Tecnologías:** Python, SQL, KQL, NLP, LLM, AI, Agentic AI, Langchain, Langsmith, Docker, Terraform, Streamlit, AWS, GCP, Azure, Azure AI, OpenAI, Gemini, Google GenAI SDK, JavaScript, Grafana, GitHub, RAG
 
-* **Data Scientist**, autónomo, híbrido, Assetario – SK (01/03/2021 – 26/01/2024)
+* **Data Scientist**, autónomo, híbrido, Assetario – SK (01/03/2021 – 26/01/2024), *(Contrato autónomo en paralelo)*
   * **Descripción:** Diseño, análisis e implementación de modelos de machine learning para la predicción del customer lifetime value en aplicaciones móviles y recomendaciones de in-app purchases. Mejora del procesamiento de datos y feature engineering para aumentar las tasas de conversión y la personalización.
   * **Palabras clave:** data analysis, data science, machine learning, deep learning, communication, recommendation system, In-App-Purchases, mobile phones, problem solving, Predicted Lifetime Value (pLTV), programming, statistics, Agile
   * **Tecnologías:** Python, Athena, SQL, AWS, LLM, Hugging Face, Transformers, GBM, Weights & Biases, H2O, DBSCAN, OPTICS, Scikit-learn, PyTorch, MLflow, GitHub
 
-* **F5 Load Balancer Specialist**, autónomo, remoto, Oksystems – CZ (01/12/2021 – 01/10/2022)
+* **F5 Load Balancer Specialist**, autónomo, remoto, Oksystems – CZ (01/12/2021 – 01/10/2022), *(Proyecto autónomo en paralelo)*
   * **Descripción:** Migración de una solución existente de Apache XML firewall y load balancer a F5 para un proyecto del Ministerio de Agricultura.
   * **Palabras clave:** migration, scripting, load balancer, firewall
   * **Tecnologías:** F5, XML, Bash, Postman
 
-* **Data Scientist**, jornada completa, presencial, CTTC – ES (01/02/2020 – 30/09/2024)
+* **Data Scientist**, jornada completa, presencial, CTTC – ES (01/10/2020 – 30/09/2024)
   * **Descripción:** Diseño y análisis de enfoques de machine learning para la detección de patrones y anomalías en datasets reales y sintéticos. Liderazgo de proyectos con foco en computación distribuida y análisis de datos a gran escala.
   * **Palabras clave:** research, applied research, data analysis, data science, machine learning, deep learning, project leading, pattern detection, anomaly detection, programming, statistics, analytical thinking, collaboration, research paper writing, investigation, distributed machine learning, federated learning, V2X, 5G, 6G, problem solving
   * **Tecnologías:** Python, SQL, Flask, Celery, Docker, Helm, Kubernetes, Redis, H2O, YOLO, Transformers, GBM, LLM, Hugging Face, Weights & Biases, DBSCAN, OPTICS, Scikit-learn, PyTorch, Istio, Microk8s, K3s, Raspberry Pi, Flower, Kepler, Prometheus, InfluxDB, MinIO, KServe, Knative, MLflow, GitHub, GAN, GAIN, river, deep-river, MOA, Kafka, Airflow, KSQL, Faust, Kubeflow, Zero-to-JupyterHub, MySQL, RAG
@@ -99,9 +99,9 @@ Soy Data Scientist con más de 7 años de experiencia en el diseño e implementa
 
 ### Investigación
 
-* [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/), [github](https://5uperpalo.github.io/success6g-edge/), Co-investigador, CTTC – ES (2020–2024)
+* [SUCCESS-6G: Towards robust, secure and computationally efficient vehicular services in 6G](https://success-6g-project.cttc.es/), [github](https://5uperpalo.github.io/success6g-edge/), Co-investigador, CTTC – ES (01/03/2023 - 31/12/2024)
   * **Descripción:** Investigación y desarrollo de sistemas seguros y eficientes de monitorización en tiempo real del estado de vehículos y provisión de fallos para redes 6G usando ML e IoT en el contexto de V2X.
-* [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/), [github](https://github.com/5uperpalo/FIREMAN-project), Co-investigador, CTTC – ES (2020–2024)
+* [FIREMAN (Framework for the Identification of Rare Events via MAchine learning and IoT Networks)](https://fireman-project.eu/), [github](https://github.com/5uperpalo/FIREMAN-project), Co-investigador, CTTC – ES (01/02/2020 - 30/04/2023)
   * **Descripción:** Diseño, desarrollo e implementación de un framework basado en big data que cubre todas las fases desde la sensorización y adquisición de datos hasta el análisis estadístico y la toma de decisiones operativas, para identificar, detectar, predecir y prevenir eventos raros en procesos físicos industriales.
 * **Practical Privacy-Preserving Data Collection and Utilization using Provable Cryptographic Tools**, Investigador principal, FEE, CTU, Praga – CZ (2019)
   * **Descripción:** Investigación e implementación de métodos de recogida de datos con preservación de la privacidad mediante herramientas criptográficas.
