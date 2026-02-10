@@ -11,7 +11,7 @@ Soy Data Scientist con más de 7 años de experiencia en el diseño e implementa
 | nombre             | nivel      | notas                                                                     |
 | ------------------ | ---------- | ------------------------------------------------------------------------- |
 | Python             | Avanzado   | Scikit-learn, Flask, FastAPI, Pandas, SQLAlchemy, SciPy, Pydantic, etc.   |
-| JavaScript         | Básico     | mejora de soluciones, scripting y uso de MOA                              |
+| JavaScript         | Básico     | Vue.js, React, scripting y uso de MOA                              |
 | SQL                | Intermedio | consultas, análisis de datos, administración de bases de datos locales    |
 | KQL                | Intermedio | consultas, análisis de datos                                              |
 | Prompt engineering | Avanzado   | Ollama, Azure OpenAI SDK, Google GenAI SDK                                |
